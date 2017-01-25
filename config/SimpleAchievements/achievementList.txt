@@ -1,0 +1,50 @@
+=== Getting Started ===::1
+Craft a Wooden Pickaxe (Vanilla or Tinkers)!::0
+Build a Small Hideout!::0
+Setup a Mining Area & Create Some Torches!::0
+Setup a Smeltery at Least with 3 Layers::0
+Locate and Loot a Village::0
+=== Traveling Around ===::1
+Visit The Nether!::0
+Visit The Deep Dark!::0
+Visit The End!::0
+::1
+::1
+::1
+= Starting Space Research =::1
+View the Mysterious Document!::0
+Find a Chamber Through a Hole on the Surface!::0
+Obtain the E-Scanner!::0
+Use the E-Scanner to Scan your Environment to Complete the Researching Knowledge!::0
+Obtain the Scientific Curiosity Research!::0
+Craft/Obtain a Researcher and Scanner!::0
+Scan a Tech Table in the Scanner!::0
+Research Blueprint fron Tech Table!::0
+Use the Scanner to Scan a Few Different Machines::0
+Use the Researcher to Research a Few Research Blueprints::0
+=== Basic Technology ===::1
+Use Machines to 2x Your Ores::0
+Use Machines to 3x Your Ores::0
+Use Machines to 4x Your Ores::0
+Use Machines to 5x Your Ores::0
+Create a Automated Ore Processing System::0
+Create a Stable Power Creation::0
+Create a Basic Power Storage::0
+== Advanced Technology ==::1
+Create a Basic Refined Storage System::0
+Automate Mining using a Quarry::0
+== Basic Power Systems ==::1
+Produce 500 RF/t::0
+Produce 1k RF/t::0
+= Advanced Power Systems =::1
+Create a Passively cooled reactor from the Extreme Reactors::0
+Create an Actively cooled reactor from the Extreme Reactors::0
+Create a Turbine from the Extreme Reactors::0
+Create a Fusion Reactor, with a Stable Fuel Source::0
+Produce 1k RF/t::0
+Produce 100k RF/t::0
+Produce 1 million RF/t::0
+Produce 10 million RF/t::0
+== Exploring the Universe ==::1
+Reach The Planet Menelaus!::0
+Reach The Planet Tyros!::0

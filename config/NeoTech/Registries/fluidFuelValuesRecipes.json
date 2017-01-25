@@ -1,0 +1,10 @@
+[
+  {
+    "fluid": "lava",
+    "burnTime": 6400
+  },
+  {
+    "fluid": "hydrogen",
+    "burnTime": 2400
+  }
+]
