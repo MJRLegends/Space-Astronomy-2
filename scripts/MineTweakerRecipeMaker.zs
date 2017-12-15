@@ -1,18 +1,37 @@
 // ================================================================================
-//#MARKER REMOVE ORE DICTIONARY
+//#MARKER ADD/REMOVE ORE DICTIONARY
 
-val iron = <ore:nuggetIron>;
-var lead = <ore:nuggetLead>;
+val ironNugget = <ore:nuggetIron>;
+var leadNugget = <ore:nuggetLead>;
+var copperDust = <ore:dustCopper>;
+var cobaltDust = <ore:dustCobalt>;
+var ironDust = <ore:dustIron>;
+var goldDust = <ore:dustGold>;
+var diamondDust = <ore:dustDiamond>;
+var lapisDust = <ore:dustLapis>;
+var tinDust = <ore:dustTin>;
 var uraniumIngot = <ore:ingotUranium>;
 var uraniumBlock = <ore:blockUranium>;
-iron.remove(<rockhounding_chemistry:miscItems:2>);
-iron.remove(<opencomputers:material>);
-iron.remove(<neotech:nuggetIron>);
-iron.remove(<immersiveengineering:metal:29>);
-iron.add(<backport:iron_nugget>);
-lead.remove(<immersiveengineering:metal:22>);
+ironNugget.add(<backport:iron_nugget>);
 uraniumIngot.add(<extraplanets:ingot_uranium>);
 uraniumBlock.add(<extraplanets:ceres:7>);
+
+ironNugget.remove(<rockhounding_chemistry:miscItems:2>);
+ironNugget.remove(<opencomputers:material>);
+ironNugget.remove(<neotech:nuggetIron>);
+ironNugget.remove(<immersiveengineering:metal:29>);
+leadNugget.remove(<immersiveengineering:metal:22>);
+copperDust.remove(<immersiveengineering:metal:9>);
+copperDust.remove(<ic2:dust:4>);
+copperDust.remove(<enderio:itemPowderIngot:3>);
+tinDust.remove(<enderio:itemPowderIngot:4>);
+tinDust.remove(<ic2:dust:17>);
+tinDust.remove(<mekanism:Dust:4>);
+cobaltDust.remove(<enderio:itemPowderIngot:10>);
+ironDust.remove(<actuallyadditions:itemDust>);
+goldDust.remove(<actuallyadditions:itemDust:1>);
+diamondDust.remove(<actuallyadditions:itemDust:2>);
+lapisDust.remove(<actuallyadditions:itemDust:4>);
 
 // ================================================================================
 //#MARKER REMOVE/ADD TINKERS SMELTERY MELTING MATERIALS
@@ -34,6 +53,10 @@ recipes.removeShapeless(<minecraft:dye:15> * 9, [<minecraft:bone_block>]);
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<actuallyadditions:itemChestObsidian>);
+recipes.remove(<actuallyadditions:obsidianPaxel>);
+recipes.remove(<littletiles:LTStorageBlockTile>);
+recipes.remove(<extrautils2:minichest>);
 recipes.remove(<galacticraftplanets:carbon_fragments>);
 recipes.remove(<mekanism:BasicBlock:3>);
 recipes.remove(<tp:charcoal_block>);
@@ -130,6 +153,12 @@ recipes.remove(<ic2:bronze_shovel>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<rockhounding_chemistry:miscItems:46>, [<immersiveengineering:metal:1>]);
+recipes.addShapeless(<immersiveengineering:metal:1>, [<rockhounding_chemistry:miscItems:46>]);
+recipes.addShapeless(<neotech:ingotLead>, [<rockhounding_chemistry:miscItems:27>]);
+recipes.addShapeless(<neotech:ingotCopper>, [<rockhounding_chemistry:miscItems:25>]);
+recipes.addShapeless(<rockhounding_chemistry:miscItems:25>, [<neotech:ingotCopper>]);
+recipes.addShapeless(<rockhounding_chemistry:miscItems:27>, [<neotech:ingotLead>]);
 recipes.addShapeless(<galacticraftplanets:carbon_fragments> * 4, [<ore:charcoal>, <ore:charcoal>]);
 recipes.addShapeless(<galacticraftplanets:carbon_fragments> * 8, [<ore:coal>, <ore:coal>]);
 recipes.addShapeless(<minecraft:dye:15> * 4, [<minecraft:bone_block>]);
@@ -172,6 +201,9 @@ recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:itemFlint>, <ore:ingotSt
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<actuallyadditions:obsidianPaxel>, [[<mekanismtools:ObsidianAxe>, <mekanismtools:ObsidianSword>, <mekanismtools:ObsidianShovel>], [<mekanismtools:ObsidianPickaxe>, <ore:stickWood>, <mekanismtools:ObsidianHoe>], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<littletiles:LTStorageBlockTile>, [[null, <minecraft:chest>, null], [null, null, null], [null, null, null]]);
+recipes.addShaped(<extrautils2:minichest>, [[null, null, null], [null, null, null], [null, <minecraft:chest>, null]]);
 recipes.addShaped(<littletiles:utilityKnife>, [[null, null, <ore:ingotIron>], [null, <ore:gemLapis>, null], [<ore:gemLapis>, null, null]]);
 recipes.addShaped(<rftools:smartwrench>, [[<ore:ingotIron>, null, null], [null, <ore:gemLapis>, null], [null, null, <ore:gemLapis>]]);
 recipes.addShaped(<rockhounding_chemistry:agitator>, [[<ore:ingotIron>], [<ore:ingotIron>], [<ore:ingotIron>]]);
