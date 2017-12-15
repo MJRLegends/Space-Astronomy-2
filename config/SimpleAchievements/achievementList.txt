@@ -1,4 +1,5 @@
 Getting Started::1
+Read all the Books which you Gain when Starting the World::0
 Craft a Wooden Pickaxe (From Tinkers Construct)!::0
 Craft One of the Following Items Pickaxe, Shovel, Axe, Sword Tools (From Tinkers Construct)!::0
 Build a Small Base!::0
@@ -45,6 +46,10 @@ Build a Tier 7 Rocket::0
 Build a Tier 8 Rocket::0
 Build a Tier 9 Rocket::0
 Build a Tier 10 Rocket::0
+Build a Tier 10 Electric Rocket::0
+::1
+::1
+::1
 ::1
 ::1
 Exploring the Universe::1
@@ -62,7 +67,7 @@ Visit the Eris::0
 Visit the Kepler22b::0
 Visit the All the Moons::0
 Defeat all of the Dungeon Bosses::0
-Collect all 14 NASA Workbench Schematics::0
+Collect all 15 NASA Workbench Schematics::0
 Surviving & Living Out in the Universe::1
 Build & Travel 500 Blocks in a Moon Buggy::0
 Build & Travel 500 Blocks in a Venus Rover::0
