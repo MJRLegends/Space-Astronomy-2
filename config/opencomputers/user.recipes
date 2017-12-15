@@ -14,6 +14,11 @@ include file("default.recipes")
 #include file("peaceful.recipes")
 #include file("your_custom.recipes")
 
+worldSensorCard {
+  input: [[{item="galacticraftcore:sensor_lens"}, "oc:circuitChip2", ""]
+          ["", "oc:materialCard", ""]]
+}
+
 # You can also specify custom recipes in this file directly. Have a look at the
 # default.recipes file to get an idea how recipes have to be structured. You'll
 # want to define your recipes after all includes, to avoid those overwriting
