@@ -10,6 +10,7 @@ Setup a Mining Area & Create Some Torches!::0
 Setup a Smeltery at Least with 3 Layers::0
 Traveling Around::1
 Visit The Nether!::0
+Visit The Mining World!::0
 Visit The Deep Dark!::0
 Visit The End!::0
 Use a Form of Flight to Travel Around::0
@@ -21,8 +22,9 @@ Locate and Loot a Desert Temple::0
 Locate and Loot a Ocean Monument::0
 Locate and Loot a Stronghold::0
 Locate at Least one End Portal::0
-::1
 Preparing for the Universe::1
+Process Canola in to at least one Bucket of Canola Oil::0
+Process 1 Bucket of Canola Oil in to Oil::0
 Collect Oil & Create Rocket Fuel::0
 Create Tier 1 Thermal Armour::0
 Create Tier 2 Thermal Armour::0
@@ -32,8 +34,6 @@ Create Tier 5 Thermal Armour::0
 Build and Use Each Tier of Space Suits::0
 Build a Stable Oxygen Filling Setup in the Overworld::0
 Fill at least 2 Heavy Oxygen Tanks with Oxygen::0
-::1
-::1
 Building Rockets::1
 Build a Tier 1 Rocket::0
 Build a Tier 2 Rocket::0
@@ -45,7 +45,6 @@ Build a Tier 7 Rocket::0
 Build a Tier 8 Rocket::0
 Build a Tier 9 Rocket::0
 Build a Tier 10 Rocket::0
-::1
 ::1
 ::1
 Exploring the Universe::1
@@ -80,16 +79,11 @@ Produce 1k RF/t::0
 Create a Stable Storage of 10K RF/t::0
 Basic Technology::1
 Use Machines to 2x Your Ores::0
-Use Machines to 3x Your Ores::0
-Use Machines to 4x Your Ores::0
-Use Machines to 5x Your Ores::0
 Create a Automated Ore Processing System::0
 Create a Stable Supply of Power::0
 Create a Basic Powered Based Storage System::0
-Automate Mining using a Fuel Based Quarry::0
-::1
-::1
-::1
+Automate Mining using a Powered Based Quarry (RFTools Builder is a good one)::0
+Create & Construct a Mining World Portal (Portal Frames/Mining Multitool)::0
 Advanced Power Systems::1
 Create a Passively cooled reactor from the Extreme Reactors::0
 Create an Actively cooled reactor from the Extreme Reactors::0
@@ -102,16 +96,18 @@ Produce 10 million RF/t::0
 Create a Stable Storage of 100K RF/t::0
 Create a Stable Storage of 1 Million RF/t::0
 Create a Stable Storage of 50 Million RF/t::0
-Build & Use a Powered based Jetpack::0
+::1
+::1
 Advanced Technology::1
 Create a Basic Refined Storage System::0
 Create a Automated Crafting System using Refined Storage::0
-Automate Mining using a Powered Based Quarry::0
 Store up 250K of each Ingot Type::0
 Store up 500K of each Ingot Type::0
 Use at least 1 Oxygen Sealer to seal a base outside of the Overworld::0
-::1
-::1
+Use Machines to 3x Your Ores::0
+Use Machines to 4x Your Ores::0
+Use Machines to 5x Your Ores::0
+Build & Use a Powered based Jetpack::0
 Alien Technology::1
 Use Genetucs Reborn to Give Yourself Part of an Animals DNA::0
 Use Genetucs Reborn to Give Yourself All Available Animals DNA::0

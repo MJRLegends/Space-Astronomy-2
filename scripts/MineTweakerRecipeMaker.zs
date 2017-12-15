@@ -17,6 +17,7 @@ uraniumIngot.add(<extraplanets:ingot_uranium>);
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<extrautils2:teleporter:1>);
 recipes.remove(<extraplanets:tier5_items:7>);
 recipes.remove(<extrautils2:machine>);
 recipes.remove(<extrautils2:machine>);
@@ -135,6 +136,7 @@ recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:itemFlint>, <ore:ingotSt
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<extrautils2:teleporter:1>, [[<ore:compressed2xCobblestone>, <ore:compressed2xCobblestone>, <ore:compressed2xCobblestone>], [<ore:compressed2xCobblestone>, <actuallyadditions:blockMisc:6>, <ore:compressed2xCobblestone>], [<ore:compressed2xCobblestone>, <ore:compressed2xCobblestone>, <ore:compressed2xCobblestone>]]);
 recipes.addShaped(<refinedstorage:silicon> * 2, [[null, <mysticalagriculture:silicon_essence>, null], [<mysticalagriculture:silicon_essence>, <mysticalagriculture:silicon_essence>, <mysticalagriculture:silicon_essence>], [null, <mysticalagriculture:silicon_essence>, null]]);
 recipes.addShaped(<tp:diamond_spear>, [[null, null, <ore:gemDiamond>], [null, <ore:gemDiamond>, null], [<ore:stickWood>, null, null]]);
 recipes.addShaped(<tp:golden_spear>, [[null, null, <ore:ingotGold>], [null, <ore:ingotGold>, null], [<ore:stickWood>, null, null]]);
