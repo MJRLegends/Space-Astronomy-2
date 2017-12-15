@@ -1,6 +1,7 @@
 # Space-Astronomy-2
 Configs/Scripts for Space Astronomy 2 Mod Pack
 
+##### Issue Tracker - https://github.com/MJRLegends/Space-Astronomy-2-Feedback-/issues/
 ##### Known Issues - https://github.com/MJRLegends/Space-Astronomy-2-Feedback-/issues/99
 ##### Change Log - https://pastebin.com/sT3e0wLd
 ##### Mod List - https://pastebin.com/8uF9P9jh
