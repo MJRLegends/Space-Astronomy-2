@@ -18,3 +18,10 @@ minecraftinstance.json
 modpack/
 .curseclient
 mods/
+*.log
+dumps/
+llibrary/
+screenshots/
+servers.dat
+knownkeys.txt
+WailaErrorOutput.txt
