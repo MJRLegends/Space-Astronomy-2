@@ -1,5 +1,35 @@
 // ================================================================================
 //#MARKER TOOLTIP
+<minecraft:wooden_sword>.addTooltip(format.red("Effectiveness has been removed! Used for Crafting Only!"));
+<minecraft:wooden_pickaxe>.addTooltip(format.red("Effectiveness has been removed! Used for Crafting Only!"));
+<minecraft:wooden_axe>.addTooltip(format.red("Effectiveness has been removed! Used for Crafting Only!"));
+<minecraft:wooden_shovel>.addTooltip(format.red("Effectiveness has been removed! Used for Crafting Only!"));
+<minecraft:wooden_hoe>.addTooltip(format.red("Effectiveness has been removed! Used for Crafting Only!"));
+
+<minecraft:stone_sword>.addTooltip(format.red("Effectiveness has been removed! Used for Crafting Only!"));
+<minecraft:stone_pickaxe>.addTooltip(format.red("Effectiveness has been removed! Used for Crafting Only!"));
+<minecraft:stone_axe>.addTooltip(format.red("Effectiveness has been removed! Used for Crafting Only!"));
+<minecraft:stone_shovel>.addTooltip(format.red("Effectiveness has been removed! Used for Crafting Only!"));
+<minecraft:stone_hoe>.addTooltip(format.red("Effectiveness has been removed! Used for Crafting Only!"));
+
+<minecraft:iron_sword>.addTooltip(format.red("Effectiveness has been removed! Used for Crafting Only!"));
+<minecraft:iron_pickaxe>.addTooltip(format.red("Effectiveness has been removed! Used for Crafting Only!"));
+<minecraft:iron_axe>.addTooltip(format.red("Effectiveness has been removed! Used for Crafting Only!"));
+<minecraft:iron_shovel>.addTooltip(format.red("Effectiveness has been removed! Used for Crafting Only!"));
+<minecraft:iron_hoe>.addTooltip(format.red("Effectiveness has been removed! Used for Crafting Only!"));
+
+<minecraft:golden_sword>.addTooltip(format.red("Effectiveness has been removed! Used for Crafting Only!"));
+<minecraft:golden_pickaxe>.addTooltip(format.red("Effectiveness has been removed! Used for Crafting Only!"));
+<minecraft:golden_axe>.addTooltip(format.red("Effectiveness has been removed! Used for Crafting Only!"));
+<minecraft:golden_shovel>.addTooltip(format.red("Effectiveness has been removed! Used for Crafting Only!"));
+<minecraft:golden_hoe>.addTooltip(format.red("Effectiveness has been removed! Used for Crafting Only!"));
+
+<minecraft:diamond_sword>.addTooltip(format.red("Effectiveness has been removed! Used for Crafting Only!"));
+<minecraft:diamond_pickaxe>.addTooltip(format.red("Effectiveness has been removed! Used for Crafting Only!"));
+<minecraft:diamond_axe>.addTooltip(format.red("Effectiveness has been removed! Used for Crafting Only!"));
+<minecraft:diamond_shovel>.addTooltip(format.red("Effectiveness has been removed! Used for Crafting Only!"));
+<minecraft:diamond_hoe>.addTooltip(format.red("Effectiveness has been removed! Used for Crafting Only!"));
+
 <immersiveengineering:metal:5>.addTooltip(format.blue("You can use this Ingot for Extreme Reactors!"));
 <extraplanets:ingot_uranium>.addTooltip(format.blue("You can use this Ingot for Extreme Reactors!"));
 // ================================================================================
@@ -64,6 +94,7 @@ recipes.removeShapeless(<minecraft:dye:15> * 9, [<minecraft:bone_block>]);
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<neotech:fluidGenerator>);
 recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_pink"}));
 recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_ice"}));
 recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_enchant"}));
@@ -250,6 +281,7 @@ recipes.addShapeless(<neotech:dustTin>, [<ic2:dust:17>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<neotech:fluidGenerator>, [[<ore:ingotGold>, <ore:dustRedstone>, <ore:ingotGold>], [<simplegenerators:furnace_generator>, <neotech:basicTank>, <simplegenerators:furnace_generator>], [<ore:ingotGold>, <ore:dustRedstone>, <ore:ingotGold>]]);
 recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_pink"}), [[<ore:dyePink>, <ore:dyePink>, <ore:dyePink>], [<ore:dyePink>, <minecraft:wool:6>, <ore:dyePink>], [<ore:dustRedstone>, <simplegenerators:furnace_generator>, <ore:dustRedstone>]]);
 recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_ice"}), [[<minecraft:snowball>, <minecraft:snowball>, <minecraft:snowball>], [<minecraft:snowball>, <ore:blockIce>, <minecraft:snowball>], [<ore:dustRedstone>, <simplegenerators:furnace_generator>, <ore:dustRedstone>]]);
 recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_enchant"}), [[<ore:blockMagicalWood>, <ore:blockMagicalWood>, <ore:blockMagicalWood>], [<ore:blockMagicalWood>, <minecraft:enchanting_table>, <ore:blockMagicalWood>], [<ore:dustRedstone>, <simplegenerators:furnace_generator>, <ore:dustRedstone>]]);

@@ -17,6 +17,7 @@ Visit The Nether!::0
 Visit The Mining World!::0
 Visit The Deep Dark!::0
 Visit The End!::0
+Visit The Underworld! (Dimension from LightingCraft)::0
 Use a Form of Flight to Travel Around::0
 Use a Form of Powered Flight to Travel Around::0
 Explore the End Cities & Obtain a Elytra::0
@@ -26,6 +27,7 @@ Locate and Loot a Desert Temple::0
 Locate and Loot a Ocean Monument::0
 Locate and Loot a Stronghold::0
 Locate at Least one End Portal::0
+::1
 Preparing for the Universe::1
 Process Canola in to at least one Bucket of Canola Oil::0
 Process 1 Bucket of Canola Oil in to Oil::0
@@ -38,9 +40,6 @@ Create Tier 5 Thermal Armour::0
 Build and Use Each Tier of Space Suits::0
 Build a Stable Oxygen Filling Setup in the Overworld::0
 Fill at least 2 Heavy Oxygen Tanks with Oxygen::0
-::1
-::1
-::1
 Building Rockets::1
 Build a Tier 1 Rocket::0
 Build a Tier 2 Rocket::0
@@ -53,7 +52,6 @@ Build a Tier 8 Rocket::0
 Build a Tier 9 Rocket::0
 Build a Tier 10 Rocket::0
 Build a Tier 10 Electric Rocket::0
-::1
 ::1
 Exploring the Universe::1
 Visit the Planet Mercury::0
@@ -87,10 +85,16 @@ Craft & Build a Space Air lock using a Dual Air Lock Design::0
 Trade at least 64 Lunar Sapphire's with an Alien Villager::0
 Travel around the Asteroids using a Grapple from Galacticraft::0
 Use at Least 1 Oxygen Sealer to seal a base outside of the Overworld::0
+Create at Least one Anti-Rad Drink::0
+Fully Automate the Production of Creating Anti-Rad Drinks::0
+::1
 Basic Power Systems::1
 Produce 500 RF/t::0
 Produce 1k RF/t::0
 Create a Stable Storage of 10K RF/t::0
+::1
+::1
+::1
 Basic Technology::1
 Use Machines to 2x Your Ores::0
 Create a Automated Ore Processing System::0
