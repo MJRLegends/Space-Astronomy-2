@@ -96,6 +96,7 @@ recipes.removeShapeless(<minecraft:dye:15> * 9, [<minecraft:bone_block>]);
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<sgcraft:ic2Capacitor>);
 recipes.remove(<neotech:fluidGenerator>);
 recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_pink"}));
 recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_ice"}));
@@ -218,6 +219,7 @@ recipes.remove(<ic2:bronze_shovel>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<mekanism:OtherDust:3>, [<ic2:dust:16>]);
 recipes.addShapeless(<refinedstorage:silicon>, [<enderio:itemMaterial>]);
 recipes.addShapeless(<neotech:dustLead>, [<ore:dustLead>]);
 recipes.addShapeless(<immersiveengineering:metal:10>, [<rockhounding_chemistry:chemicalDusts:24>]);
@@ -284,6 +286,7 @@ recipes.addShapeless(<neotech:dustTin>, [<ic2:dust:17>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<sgcraft:ic2Capacitor>, [[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>], [<ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>], [<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>]]);
 recipes.addShaped(<neotech:fluidGenerator>, [[<ore:ingotGold>, <ore:dustRedstone>, <ore:ingotGold>], [<simplegenerators:furnace_generator>, <neotech:basicTank>, <simplegenerators:furnace_generator>], [<ore:ingotGold>, <ore:dustRedstone>, <ore:ingotGold>]]);
 recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_pink"}), [[<ore:dyePink>, <ore:dyePink>, <ore:dyePink>], [<ore:dyePink>, <minecraft:wool:6>, <ore:dyePink>], [<ore:dustRedstone>, <simplegenerators:furnace_generator>, <ore:dustRedstone>]]);
 recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_ice"}), [[<minecraft:snowball>, <minecraft:snowball>, <minecraft:snowball>], [<minecraft:snowball>, <ore:blockIce>, <minecraft:snowball>], [<ore:dustRedstone>, <simplegenerators:furnace_generator>, <ore:dustRedstone>]]);
@@ -441,5 +444,7 @@ mods.rockhounding_chemistry.MineralSizer.add(<neotech:ingotLead>, <neotech:dustL
 mods.rockhounding_chemistry.MineralSizer.add(<minecraft:gold_ingot>, <neotech:dustGold>);
 mods.rockhounding_chemistry.MineralSizer.add(<rockhounding_chemistry:miscItems:46>, <immersiveengineering:metal:10>);
 mods.rockhounding_chemistry.MineralSizer.add(<rockhounding_chemistry:miscItems:27>, <neotech:dustLead>);
+
+mods.rockhounding_chemistry.LabBlender.add([<mekanism:OtherDust:3> * 3], <rockhounding_chemistry:chemicalItems:2> * 8);
 // ================================================================================
 
