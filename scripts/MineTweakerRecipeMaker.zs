@@ -257,3 +257,15 @@ recipes.addShaped(<minecraft:iron_pickaxe>, [[<ore:ingotIron>, <ore:ingotIron>, 
 recipes.addShaped(<minecraft:golden_pickaxe>, [[<ore:ingotGold>, <ore:ingotGold>, null], [<ore:ingotGold>, <ore:stickWood>, null], [null, null, <ore:stickWood>]]);
 recipes.addShaped(<minecraft:diamond_pickaxe>, [[<ore:gemDiamond>, <ore:gemDiamond>, null], [<ore:gemDiamond>, <ore:stickWood>, null], [null, null, <ore:stickWood>]]);
 // ================================================================================
+
+
+// ================================================================================
+//#MARKER ADD MISSING LOCALIZATION NAMES
+game.setLocalization("item.neotech:nuggetOutlandish.name", "Outlandish Nugget");
+game.setLocalization("item.LapisLazuliShovel.name", "Lapis Lazuli Shovel");
+game.setLocalization("item.lemonmeringueitem.name", "Lemon Meringue");
+game.setLocalization("item.lemondrizzlecakeitem.name", "Lemon Drizzle Cake");
+game.setLocalization("Blood.name", "Blood");
+game.setLocalization("item.BirthdayPickaxe.name", "Brithday Pickaxe");
+game.setLocalization("item.immersiveengineering.toolupgrade.drillLube.name", "Advanced Lubrication System");
+// ================================================================================
