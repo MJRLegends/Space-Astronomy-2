@@ -34,6 +34,9 @@ recipes.removeShapeless(<minecraft:dye:15> * 9, [<minecraft:bone_block>]);
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<galacticraftplanets:carbon_fragments>);
+recipes.remove(<mekanism:BasicBlock:3>);
+recipes.remove(<tp:charcoal_block>);
 recipes.remove(<littletiles:utilityKnife>);
 recipes.remove(<rftools:smartwrench>);
 recipes.remove(<rockhounding_chemistry:miscItems:12>);
@@ -127,6 +130,8 @@ recipes.remove(<ic2:bronze_shovel>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<galacticraftplanets:carbon_fragments> * 4, [<ore:charcoal>, <ore:charcoal>]);
+recipes.addShapeless(<galacticraftplanets:carbon_fragments> * 8, [<ore:coal>, <ore:coal>]);
 recipes.addShapeless(<minecraft:dye:15> * 4, [<minecraft:bone_block>]);
 recipes.addShapeless(<sonarcore:StableGlass>, [<sonarcore:ClearStableGlass>]);
 recipes.addShapeless(<minecraft:bone_block>, [<minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>]);
@@ -175,8 +180,8 @@ recipes.addShaped(<sonarcore:StableGlass>, [[<ore:blockGlass>, <ore:blockGlass>]
 recipes.addShaped(<rockhounding_chemistry:testTube>, [[null, <ore:blockGlass>], [<ore:blockGlass>, null]]);
 recipes.addShaped(<minecraft:carrot> * 12, [[<mysticalagriculture:nature_essence>, <mysticalagriculture:nature_essence>], [null, <mysticalagriculture:nature_essence>]]);
 recipes.addShaped(<rockhounding_chemistry:miscItems:42> * 8, [[null, <ore:ingotIron>, null], [<ore:ingotIron>, null, <ore:ingotIron>], [null, <ore:ingotIron>, null]]);
-recipes.addShaped(<backport:iron_nugget> * 9, [[null, null, null], [null, <minecraft:iron_ingot>, null], [null, null, null]]);
-recipes.addShaped(<rockhounding_chemistry:gear>, [[<ore:ingotIron>]]);
+recipes.addShaped(<backport:iron_nugget> * 9, [[null, null, null], [null, <ore:ingotIron>, null], [null, null, null]]);
+recipes.addShaped(<rockhounding_chemistry:gear>, [[null, <ore:ingotIron>, null], [null, null, null], [null, null, null]]);
 recipes.addShaped(<extrautils2:teleporter:1>, [[<ore:compressed2xCobblestone>, <ore:compressed2xCobblestone>, <ore:compressed2xCobblestone>], [<ore:compressed2xCobblestone>, <actuallyadditions:blockMisc:6>, <ore:compressed2xCobblestone>], [<ore:compressed2xCobblestone>, <ore:compressed2xCobblestone>, <ore:compressed2xCobblestone>]]);
 recipes.addShaped(<refinedstorage:silicon> * 2, [[null, <mysticalagriculture:silicon_essence>, null], [<mysticalagriculture:silicon_essence>, <mysticalagriculture:silicon_essence>, <mysticalagriculture:silicon_essence>], [null, <mysticalagriculture:silicon_essence>, null]]);
 recipes.addShaped(<tp:diamond_spear>, [[null, null, <ore:gemDiamond>], [null, <ore:gemDiamond>, null], [<ore:stickWood>, null, null]]);
