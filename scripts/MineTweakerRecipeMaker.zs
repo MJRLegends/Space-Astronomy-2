@@ -32,6 +32,8 @@
 
 <immersiveengineering:metal:5>.addTooltip(format.blue("You can use this Ingot for Extreme Reactors!"));
 <extraplanets:ingot_uranium>.addTooltip(format.blue("You can use this Ingot for Extreme Reactors!"));
+
+<ic2:advanced_solar_panels_te_machines:1>.addTooltip(format.red("Creative Only Item/Block!"));
 // ================================================================================
 
 // ================================================================================
