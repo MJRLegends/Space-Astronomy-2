@@ -163,6 +163,8 @@ recipes.remove(<ic2:bronze_shovel>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<neotech:dustLead>, [<ore:dustLead>]);
+recipes.addShapeless(<immersiveengineering:metal:10>, [<rockhounding_chemistry:chemicalDusts:24>]);
 recipes.addShapeless(<bigreactors:blockmetals>, [<ore:blockUranium>]);
 recipes.addShapeless(<extraplanets:ceres:7>, [<ore:blockYellorium>]);
 recipes.addShapeless(<rockhounding_chemistry:miscItems:46>, [<immersiveengineering:metal:1>]);
@@ -257,26 +259,31 @@ recipes.addShaped(<betterbuilderswands:wandDiamond>, [[null, null, <ore:gemDiamo
 //Change Vanilla Recipes
 recipes.addShaped(<minecraft:wooden_hoe>, [[<ore:plankWood>, <ore:plankWood>, null], [null, <ore:stickWood>, null], [null, null, <ore:stickWood>]]);
 recipes.addShaped(<minecraft:stone_hoe>, [[<ore:cobblestone>, <ore:cobblestone>, null], [null, <ore:stickWood>, null], [null, null, <ore:stickWood>]]);
+recipes.addShaped(<minecraft:stone_hoe>, [[<ore:stone>, <ore:stone>, null], [null, <ore:stickWood>, null], [null, null, <ore:stickWood>]]);
 recipes.addShaped(<minecraft:golden_hoe>, [[<ore:ingotGold>, <ore:ingotGold>, null], [null, <ore:stickWood>, null], [null, null, <ore:stickWood>]]);
 recipes.addShaped(<minecraft:iron_hoe>, [[<ore:ingotIron>, <ore:ingotIron>, null], [null, <ore:stickWood>, null], [null, null, <ore:stickWood>]]);
 recipes.addShaped(<minecraft:diamond_hoe>, [[<ore:gemDiamond>, <ore:gemDiamond>, null], [null, <ore:stickWood>, null], [null, null, <ore:stickWood>]]);
-recipes.addShaped(<minecraft:diamond_sword>, [[<ore:gemDiamond>, null, null], [null, <ore:gemDiamond>, null], [null, null, <ore:stickWood>]]);
 recipes.addShaped(<minecraft:iron_sword>, [[null, null, null], [<ore:ingotIron>, <ore:ingotIron>, <ore:stickWood>], [null, null, null]]);
-recipes.addShaped(<minecraft:golden_sword>, [[<ore:ingotGold>, null, null], [null, <ore:ingotGold>, null], [null, null, <ore:stickWood>]]);
-recipes.addShaped(<minecraft:stone_sword>, [[<ore:cobblestone>, null, null], [null, <ore:cobblestone>, null], [null, null, <ore:stickWood>]]);
-recipes.addShaped(<minecraft:wooden_sword>, [[<ore:plankWood>, null, null], [null, <ore:plankWood>, null], [null, null, <ore:stickWood>]]);
+recipes.addShaped(<minecraft:wooden_sword>, [[null, null, null], [<ore:plankWood>, <ore:plankWood>, <ore:stickWood>], [null, null, null]]);
+recipes.addShaped(<minecraft:diamond_sword>, [[null, null, null], [<ore:gemDiamond>, <ore:gemDiamond>, <ore:stickWood>], [null, null, null]]);
+recipes.addShaped(<minecraft:golden_sword>, [[null, null, null], [<ore:ingotGold>, <ore:ingotGold>, <ore:stickWood>], [null, null, null]]);
+recipes.addShaped(<minecraft:stone_sword>, [[null, null, null], [<ore:cobblestone>, <ore:cobblestone>, <ore:stickWood>], [null, null, null]]);
+recipes.addShaped(<minecraft:stone_sword>, [[null, null, null], [<ore:stone>, <ore:stone>, <ore:stickWood>], [null, null, null]]);
 recipes.addShaped(<minecraft:wooden_axe>, [[<ore:plankWood>, null, null], [<ore:plankWood>, <ore:stickWood>, null], [<ore:plankWood>, null, <ore:stickWood>]]);
 recipes.addShaped(<minecraft:golden_axe>, [[<ore:ingotGold>, null, null], [<ore:ingotGold>, <ore:stickWood>, null], [<ore:ingotGold>, null, <ore:stickWood>]]);
 recipes.addShaped(<minecraft:stone_axe>, [[<ore:cobblestone>, null, null], [<ore:cobblestone>, <ore:stickWood>, null], [<ore:cobblestone>, null, <ore:stickWood>]]);
+recipes.addShaped(<minecraft:stone_axe>, [[<ore:stone>, null, null], [<ore:stone>, <ore:stickWood>, null], [<ore:stone>, null, <ore:stickWood>]]);
 recipes.addShaped(<minecraft:iron_axe>, [[<ore:ingotIron>, null, null], [<ore:ingotIron>, <ore:stickWood>, null], [<ore:ingotIron>, null, <ore:stickWood>]]);
 recipes.addShaped(<minecraft:diamond_axe>, [[<ore:gemDiamond>, null, null], [<ore:gemDiamond>, <ore:stickWood>, null], [<ore:gemDiamond>, null, <ore:stickWood>]]);
 recipes.addShaped(<minecraft:wooden_shovel>, [[<ore:plankWood>, null, null], [null, <ore:stickWood>, null], [null, null, <ore:stickWood>]]);
 recipes.addShaped(<minecraft:stone_shovel>, [[<ore:cobblestone>, null, null], [null, <ore:stickWood>, null], [null, null, <ore:stickWood>]]);
+recipes.addShaped(<minecraft:stone_shovel>, [[<ore:stone>, null, null], [null, <ore:stickWood>, null], [null, null, <ore:stickWood>]]);
 recipes.addShaped(<minecraft:iron_shovel>, [[<ore:ingotIron>, null, null], [null, <ore:stickWood>, null], [null, null, <ore:stickWood>]]);
 recipes.addShaped(<minecraft:golden_shovel>, [[<ore:ingotGold>, null, null], [null, <ore:stickWood>, null], [null, null, <ore:stickWood>]]);
 recipes.addShaped(<minecraft:diamond_shovel>, [[<ore:gemDiamond>, null, null], [null, <ore:stickWood>, null], [null, null, <ore:stickWood>]]);
 recipes.addShaped(<minecraft:wooden_pickaxe>, [[<ore:plankWood>, <ore:plankWood>, null], [<ore:plankWood>, <ore:stickWood>, null], [null, null, <ore:stickWood>]]);
 recipes.addShaped(<minecraft:stone_pickaxe>, [[<ore:cobblestone>, <ore:cobblestone>, null], [<ore:cobblestone>, <ore:stickWood>, null], [null, null, <ore:stickWood>]]);
+recipes.addShaped(<minecraft:stone_pickaxe>, [[<ore:stone>, <ore:stone>, null], [<ore:stone>, <ore:stickWood>, null], [null, null, <ore:stickWood>]]);
 recipes.addShaped(<minecraft:iron_pickaxe>, [[<ore:ingotIron>, <ore:ingotIron>, null], [<ore:ingotIron>, <ore:stickWood>, null], [null, null, <ore:stickWood>]]);
 recipes.addShaped(<minecraft:golden_pickaxe>, [[<ore:ingotGold>, <ore:ingotGold>, null], [<ore:ingotGold>, <ore:stickWood>, null], [null, null, <ore:stickWood>]]);
 recipes.addShaped(<minecraft:diamond_pickaxe>, [[<ore:gemDiamond>, <ore:gemDiamond>, null], [<ore:gemDiamond>, <ore:stickWood>, null], [null, null, <ore:stickWood>]]);
@@ -329,6 +336,21 @@ furnace.addRecipe(<minecraft:gold_ingot>, <ore:oreGold>);
 furnace.addRecipe(<minecraft:gold_ingot>, <neotech:dustGold>);
 furnace.addRecipe(<minecraft:gold_ingot>, <ic2:purified:1>);
 furnace.addRecipe(<minecraft:gold_ingot>, <ic2:crushed:1>);
+
+furnace.remove(<neotech:ingotSilver>);
+furnace.addRecipe(<neotech:ingotSilver>, <ore:oreSilver>);
+furnace.addRecipe(<neotech:ingotSilver>, <neotech:dustSilver>);
+furnace.addRecipe(<neotech:ingotSilver>, <ic2:purified:4>);
+furnace.addRecipe(<neotech:ingotSilver>, <ic2:crushed:4>);
+
+furnace.remove(<neotech:ingotLead>);
+furnace.addRecipe(<neotech:ingotLead>, <ore:oreLead>);
+furnace.addRecipe(<neotech:ingotLead>, <neotech:dustLead>);
+furnace.addRecipe(<neotech:ingotLead>, <ic2:purified:3>);
+furnace.addRecipe(<neotech:ingotLead>, <ic2:crushed:3>);
+
+furnace.remove(<neotech:ingotBronze>);
+furnace.addRecipe(<neotech:ingotBronze>, <neotech:dustBronze>);
 // ================================================================================
 
 // ================================================================================
@@ -337,10 +359,14 @@ mods.rockhounding_chemistry.MineralSizer.remove(<minecraft:iron_ingot>);
 mods.rockhounding_chemistry.MineralSizer.remove(<neotech:ingotCopper>);
 mods.rockhounding_chemistry.MineralSizer.remove(<neotech:ingotLead>);
 mods.rockhounding_chemistry.MineralSizer.remove(<minecraft:gold_ingot>);
+mods.rockhounding_chemistry.MineralSizer.remove(<rockhounding_chemistry:miscItems:46>);
+mods.rockhounding_chemistry.MineralSizer.remove(<rockhounding_chemistry:miscItems:27>);
 
 mods.rockhounding_chemistry.MineralSizer.add(<minecraft:iron_ingot>, <neotech:dustIron>);
 mods.rockhounding_chemistry.MineralSizer.add(<neotech:ingotCopper>, <neotech:dustCopper>);
 mods.rockhounding_chemistry.MineralSizer.add(<neotech:ingotLead>, <neotech:dustLead>);
 mods.rockhounding_chemistry.MineralSizer.add(<minecraft:gold_ingot>, <neotech:dustGold>);
+mods.rockhounding_chemistry.MineralSizer.add(<rockhounding_chemistry:miscItems:46>, <immersiveengineering:metal:10>);
+mods.rockhounding_chemistry.MineralSizer.add(<rockhounding_chemistry:miscItems:27>, <neotech:dustLead>);
 // ================================================================================
 
