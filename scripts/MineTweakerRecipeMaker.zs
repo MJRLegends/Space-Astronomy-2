@@ -1,6 +1,11 @@
 // ================================================================================
-//#MARKER ADD/REMOVE ORE DICTIONARY
+//#MARKER TOOLTIP
+<immersiveengineering:metal:5>.addTooltip(format.blue("You can use this Ingot for Extreme Reactors!"));
+<extraplanets:ingot_uranium>.addTooltip(format.blue("You can use this Ingot for Extreme Reactors!"));
+// ================================================================================
 
+// ================================================================================
+//#MARKER ADD/REMOVE ORE DICTIONARY
 val ironNugget = <ore:nuggetIron>;
 var leadNugget = <ore:nuggetLead>;
 var copperDust = <ore:dustCopper>;
@@ -12,6 +17,11 @@ var lapisDust = <ore:dustLapis>;
 var tinDust = <ore:dustTin>;
 var uraniumIngot = <ore:ingotUranium>;
 var uraniumBlock = <ore:blockUranium>;
+var nickelOre = <ore:oreNickel>;
+var uraniumOre = <ore:oreUranium>;
+
+uraniumOre.add(<bigreactors:brore>);
+nickelOre.remove(<extraplanets:jupiter:7>);
 
 ironNugget.add(<backport:iron_nugget>);
 uraniumIngot.add(<extraplanets:ingot_uranium>);
@@ -23,23 +33,14 @@ ironNugget.remove(<neotech:nuggetIron>);
 ironNugget.remove(<immersiveengineering:metal:29>);
 leadNugget.remove(<immersiveengineering:metal:22>);
 copperDust.remove(<immersiveengineering:metal:9>);
-copperDust.remove(<ic2:dust:4>);
 copperDust.remove(<enderio:itemPowderIngot:3>);
 tinDust.remove(<enderio:itemPowderIngot:4>);
-tinDust.remove(<ic2:dust:17>);
 tinDust.remove(<mekanism:Dust:4>);
 cobaltDust.remove(<enderio:itemPowderIngot:10>);
 ironDust.remove(<actuallyadditions:itemDust>);
 goldDust.remove(<actuallyadditions:itemDust:1>);
 diamondDust.remove(<actuallyadditions:itemDust:2>);
 lapisDust.remove(<actuallyadditions:itemDust:4>);
-
-// ================================================================================
-//#MARKER REMOVE/ADD TINKERS SMELTERY MELTING MATERIALS
-mods.tconstruct.Smeltery.removeMelting(<rockhounding_chemistry:gear>);
-mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 144, <rockhounding_chemistry:gear>, 534);
-// ================================================================================
-
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
@@ -54,6 +55,8 @@ recipes.removeShapeless(<minecraft:dye:15> * 9, [<minecraft:bone_block>]);
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<bigreactors:blockmetals>);
+recipes.remove(<neotech:furnaceGenerator>);
 recipes.remove(<harvestcraft:freshwateritem>);
 recipes.remove(<littletiles:LTTransparentColoredBlock:5>);
 recipes.remove(<ic2:te:59>);
@@ -160,6 +163,8 @@ recipes.remove(<ic2:bronze_shovel>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<bigreactors:blockmetals>, [<ore:blockUranium>]);
+recipes.addShapeless(<extraplanets:ceres:7>, [<ore:blockYellorium>]);
 recipes.addShapeless(<rockhounding_chemistry:miscItems:46>, [<immersiveengineering:metal:1>]);
 recipes.addShapeless(<immersiveengineering:metal:1>, [<rockhounding_chemistry:miscItems:46>]);
 recipes.addShapeless(<neotech:ingotLead>, [<rockhounding_chemistry:miscItems:27>]);
@@ -202,6 +207,20 @@ recipes.addShapeless(<biomesoplenty:planks_0:2>, [<biomesoplenty:wood_slab_0:2>,
 recipes.addShapeless(<biomesoplenty:planks_0:1>, [<biomesoplenty:wood_slab_0:1>, <biomesoplenty:wood_slab_0:1>]);
 recipes.addShapeless(<biomesoplenty:planks_0>, [<biomesoplenty:wood_slab_0>, <biomesoplenty:wood_slab_0>]);
 recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:itemFlint>, <ore:ingotSteel>]);
+
+
+//Dust Unify
+recipes.addShapeless(<neotech:dustCopper>, [<rockhounding_chemistry:chemicalDusts:17>]);
+recipes.addShapeless(<neotech:dustGold>, [<rockhounding_chemistry:chemicalDusts:45>]);
+recipes.addShapeless(<neotech:dustLead>, [<rockhounding_chemistry:chemicalDusts:19>]);
+
+recipes.addShapeless(<neotech:dustBronze>, [<ic2:dust>]);
+recipes.addShapeless(<neotech:dustCopper>, [<ic2:dust:4>]);
+recipes.addShapeless(<neotech:dustGold>, [<ic2:dust:7>]);
+recipes.addShapeless(<neotech:dustIron>, [<ic2:dust:8>]);
+recipes.addShapeless(<neotech:dustLead>, [<ic2:dust:10>]);
+recipes.addShapeless(<neotech:dustSilver>, [<ic2:dust:14>]);
+recipes.addShapeless(<neotech:dustTin>, [<ic2:dust:17>]);
 
 // ================================================================================
 
@@ -274,3 +293,54 @@ game.setLocalization("Blood.name", "Blood");
 game.setLocalization("item.BirthdayPickaxe.name", "Brithday Pickaxe");
 game.setLocalization("item.immersiveengineering.toolupgrade.drillLube.name", "Advanced Lubrication System");
 // ================================================================================
+
+// ================================================================================
+//#MARKER REMOVE/ADD TINKERS SMELTERY MELTING MATERIALS
+mods.tconstruct.Smeltery.removeMelting(<rockhounding_chemistry:gear>);
+mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 144, <rockhounding_chemistry:gear>, 534);
+// ================================================================================
+
+// ================================================================================
+//#MARKER ADD/REMOVE FURNACE RECIPES
+furnace.remove(<neotech:ingotCopper>);
+furnace.addRecipe(<neotech:ingotCopper>, <ore:oreCopper>);
+furnace.addRecipe(<neotech:ingotCopper>, <neotech:dustCopper>);
+furnace.addRecipe(<neotech:ingotCopper>, <ic2:purified>);
+furnace.addRecipe(<neotech:ingotCopper>, <ic2:crushed>);
+
+furnace.remove(<neotech:ingotTin>);
+furnace.addRecipe(<neotech:ingotTin>, <ore:oreTin>);
+furnace.addRecipe(<neotech:ingotTin>, <neotech:dustTin>);
+furnace.addRecipe(<neotech:ingotTin>, <ic2:purified:5>);
+furnace.addRecipe(<neotech:ingotTin>, <ic2:crushed:5>);
+
+furnace.remove(<neotech:ingotSteel>);
+furnace.addRecipe(<neotech:ingotSteel>, <neotech:dustSteel>);
+
+furnace.remove(<minecraft:iron_ingot>);
+furnace.addRecipe(<minecraft:iron_ingot>, <ore:oreIron>);
+furnace.addRecipe(<minecraft:iron_ingot>, <neotech:dustIron>);
+furnace.addRecipe(<minecraft:iron_ingot>, <galacticraftplanets:item_basic_asteroids:3>);
+furnace.addRecipe(<minecraft:iron_ingot>, <ic2:purified:2>);
+furnace.addRecipe(<minecraft:iron_ingot>, <ic2:crushed:2>);
+
+furnace.remove(<minecraft:gold_ingot>);
+furnace.addRecipe(<minecraft:gold_ingot>, <ore:oreGold>);
+furnace.addRecipe(<minecraft:gold_ingot>, <neotech:dustGold>);
+furnace.addRecipe(<minecraft:gold_ingot>, <ic2:purified:1>);
+furnace.addRecipe(<minecraft:gold_ingot>, <ic2:crushed:1>);
+// ================================================================================
+
+// ================================================================================
+//#MARKER ADD/REMOVE ROCKHOUNDING CHEMISTY MACHINE RECIPES
+mods.rockhounding_chemistry.MineralSizer.remove(<minecraft:iron_ingot>);
+mods.rockhounding_chemistry.MineralSizer.remove(<neotech:ingotCopper>);
+mods.rockhounding_chemistry.MineralSizer.remove(<neotech:ingotLead>);
+mods.rockhounding_chemistry.MineralSizer.remove(<minecraft:gold_ingot>);
+
+mods.rockhounding_chemistry.MineralSizer.add(<minecraft:iron_ingot>, <neotech:dustIron>);
+mods.rockhounding_chemistry.MineralSizer.add(<neotech:ingotCopper>, <neotech:dustCopper>);
+mods.rockhounding_chemistry.MineralSizer.add(<neotech:ingotLead>, <neotech:dustLead>);
+mods.rockhounding_chemistry.MineralSizer.add(<minecraft:gold_ingot>, <neotech:dustGold>);
+// ================================================================================
+
