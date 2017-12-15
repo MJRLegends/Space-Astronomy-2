@@ -36,7 +36,7 @@
 
 // ================================================================================
 //#MARKER ADD/REMOVE ORE DICTIONARY
-val ironNugget = <ore:nuggetIron>;
+var ironNugget = <ore:nuggetIron>;
 var leadNugget = <ore:nuggetLead>;
 var copperDust = <ore:dustCopper>;
 var cobaltDust = <ore:dustCobalt>;
@@ -159,12 +159,13 @@ recipes.remove(<railcraft:generic:3>);
 recipes.remove(<railcraft:generic:11>);
 recipes.remove(<railcraft:generic:12>);
 recipes.remove(<immersiveengineering:storage>);
-recipes.remove(<immersiveengineering:storage:1>);
 recipes.remove(<immersiveengineering:storage:2>);
 recipes.remove(<immersiveengineering:storage:3>);
 recipes.remove(<immersiveengineering:storage:8>);
 recipes.remove(<mekanism:BasicBlock:1>);
 recipes.remove(<mekanism:BasicBlock:5>);
+recipes.remove(<galacticraftcore:basic_block_core:11>);
+recipes.remove(<rockhounding_chemistry:miscBlocks>);
 
 // Remove Nuggets Recipes
 recipes.remove(<rockhounding_chemistry:miscItems:2>);
@@ -396,6 +397,9 @@ furnace.addRecipe(<minecraft:iron_ingot>, <neotech:dustIron>);
 furnace.addRecipe(<minecraft:iron_ingot>, <galacticraftplanets:item_basic_asteroids:3>);
 furnace.addRecipe(<minecraft:iron_ingot>, <ic2:purified:2>);
 furnace.addRecipe(<minecraft:iron_ingot>, <ic2:crushed:2>);
+
+furnace.remove(<neotech:nuggetIron>);
+furnace.addRecipe(<backport:iron_nugget>, <railcraft:ore_metal_poor>);
 
 furnace.remove(<minecraft:gold_ingot>);
 furnace.addRecipe(<minecraft:gold_ingot>, <ore:oreGold>);
