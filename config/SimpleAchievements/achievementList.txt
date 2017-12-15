@@ -1,46 +1,92 @@
 Getting Started::1
-Craft a Wooden Pickaxe (Vanilla or Tinkers)!::0
-Build a Small Hideout!::0
+Craft a Wooden Pickaxe (From Tinkers Construct)!::0
+Craft One of the Following Items Pickaxe, Shovel, Axe, Sword Tools (From Tinkers Construct)!::0
+Build a Small Base!::0
+Build a Medium Base (At least 4 Chunks of Area Used)!::0
+Find a Way to Sleep::0
+Obtain 20 of Any Food::0
+Obtain 64 of Any Food::0
 Setup a Mining Area & Create Some Torches!::0
 Setup a Smeltery at Least with 3 Layers::0
-Locate and Loot a Village::0
 Traveling Around::1
 Visit The Nether!::0
 Visit The Deep Dark!::0
 Visit The End!::0
+Use a Form of Flight to Travel Around::0
+Use a Form of Powered Flight to Travel Around::0
+Explore the End Cities & Obtain a Elytra::0
+Locate and Loot a Village::0
+Locate and Loot a Jungle Temple::0
+Locate and Loot a Desert Temple::0
+Locate and Loot a Ocean Monument::0
+Locate and Loot a Stronghold::0
+Locate at Least one End Portal::0
+::1
+Preparing for the Universe::1
+Collect Oil & Create Rocket Fuel::0
+Create Tier 1 Thermal Armour::0
+Create Tier 2 Thermal Armour::0
+Create Tier 3 Thermal Armour::0
+Create Tier 4 Thermal Armour::0
+Create Tier 5 Thermal Armour::0
+Build and Use Each Tier of Space Suits::0
+Build a Stable Oxygen Filling Setup in the Overworld::0
+Fill at least 2 Heavy Oxygen Tanks with Oxygen::0
+::1
+::1
+Building Rockets::1
+Build a Tier 1 Rocket::0
+Build a Tier 2 Rocket::0
+Build a Tier 3 Rocket::0
+Build a Tier 4 Rocket::0
+Build a Tier 5 Rocket::0
+Build a Tier 6 Rocket::0
+Build a Tier 7 Rocket::0
+Build a Tier 8 Rocket::0
+Build a Tier 9 Rocket::0
+Build a Tier 10 Rocket::0
 ::1
 ::1
 ::1
-Starting Space Research::1
-View the Mysterious Document!::0
-Find a Chamber Through a Hole on the Surface!::0
-Obtain the E-Scanner!::0
-Use the E-Scanner to Scan your Environment to Complete the Researching Knowledge!::0
-Obtain the Scientific Curiosity Research!::0
-Craft/Obtain a Researcher and Scanner!::0
-Scan a Tech Table in the Scanner!::0
-Research Blueprint fron Tech Table!::0
-Use the Scanner to Scan a Few Different Machines::0
-Use the Researcher to Research a Few Research Blueprints::0
-Upgraded Space Research::1
-Automate Growing of All the Different Future Pack Crystals using a Future Pack Sensor::0
-Unlock Everything in the E-Scanner!::0
-::1
+Exploring the Universe::1
+Visit the Mercury::0
+Visit the Moon::0
+Visit the Venus::0
+Visit the Mars::0
+Visit the Ceres::0
+Visit the Jupiter::0
+Visit the Saturn::0
+Visit the Uranus::0
+Visit the Neptune::0
+Visit the Pluto::0
+Visit the Eris::0
+Visit the Kepler22b::0
+Visit the All the Moons::0
+Defeat all of the Dungeon Bosses::0
+Collect all 14 NASA Workbench Schematics::0
+Surviving & Living Out in the Universe::1
+Build & Travel 500 Blocks in a Moon Buggy::0
+Build & Travel 500 Blocks in a Venus Rover::0
+Build & Travel 500 Blocks in a Mars Rover::0
+Design & Build a Space Station with a Y Height of 60::0
+Design & Build a Space Station on at least 2 Planets::0
+Design & Build a Base on each Planet::0
+Craft & Build a Space Air lock using a Dual Air Lock Design::0
+Trade at least 64 Lunar Sapphire's with an Alien Villager::0
+Travel around the Asteroids using a Grapple from Galacticraft::0
+Basic Power Systems::1
+Produce 500 RF/t::0
+Produce 1k RF/t::0
+Create a Stable Storage of 10K RF/t::0
 Basic Technology::1
 Use Machines to 2x Your Ores::0
 Use Machines to 3x Your Ores::0
 Use Machines to 4x Your Ores::0
 Use Machines to 5x Your Ores::0
 Create a Automated Ore Processing System::0
-Create a Stable Power Creation::0
-Create a Basic Power Storage::0
-Basic Power Systems::1
-Produce 500 RF/t::0
-Produce 1k RF/t::0
-::1
-Advanced Technology::1
-Create a Basic Refined Storage System::0
-Automate Mining using a Quarry::0
+Create a Stable Supply of Power::0
+Create a Basic Powered Based Storage System::0
+Automate Mining using a Fuel Based Quarry::0
 ::1
 ::1
 ::1
@@ -49,7 +95,31 @@ Create a Passively cooled reactor from the Extreme Reactors::0
 Create an Actively cooled reactor from the Extreme Reactors::0
 Create a Turbine from the Extreme Reactors::0
 Create a Fusion Reactor, with a Stable Fuel Source::0
-Produce 1k RF/t::0
+Produce 10k RF/t::0
 Produce 100k RF/t::0
 Produce 1 million RF/t::0
 Produce 10 million RF/t::0
+Create a Stable Storage of 100K RF/t::0
+Create a Stable Storage of 1 Million RF/t::0
+Create a Stable Storage of 50 Million RF/t::0
+Build & Use a Powered based Jetpack::0
+Advanced Technology::1
+Create a Basic Refined Storage System::0
+Create a Automated Crafting System using Refined Storage::0
+Automate Mining using a Powered Based Quarry::0
+Store up 250K of each Ingot Type::0
+Store up 500K of each Ingot Type::0
+Use at least 1 Oxygen Sealer to seal a base outside of the Overworld::0
+::1
+::1
+Alien Technology::1
+Use Genetucs Reborn to Give Yourself Part of an Animals DNA::0
+Use Genetucs Reborn to Give Yourself All Available Animals DNA::0
+Create and Use a SG Craft Stargate Portal::0
+Use Mystical Agricurlture to Grow Materials::0
+Plant & Grow a Tier 1 seed from Mystical Agricurlture::0
+Plant & Grow a Tier 2 seed from Mystical Agricurlture::0
+Plant & Grow a Tier 3 seed from Mystical Agricurlture::0
+Plant & Grow a Tier 4 seed from Mystical Agricurlture::0
+Plant & Grow a Tier 5 seed from Mystical Agricurlture::0
+Collect at least 64 of each Essence Type from Mystical Agricurlture::0

@@ -1,0 +1,1 @@
+mods.initialinventory.InvHandler.addStartingItem(<simpleachievements:achievement_book> * 1);
