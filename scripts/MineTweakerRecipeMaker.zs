@@ -216,7 +216,6 @@ recipes.addShaped(<rockhounding_chemistry:miscItems:42> * 8, [[null, <ore:ingotI
 recipes.addShaped(<backport:iron_nugget> * 9, [[null, null, null], [null, <ore:ingotIron>, null], [null, null, null]]);
 recipes.addShaped(<rockhounding_chemistry:gear>, [[null, <ore:ingotIron>, null], [null, null, null], [null, null, null]]);
 recipes.addShaped(<extrautils2:teleporter:1>, [[<ore:compressed2xCobblestone>, <ore:compressed2xCobblestone>, <ore:compressed2xCobblestone>], [<ore:compressed2xCobblestone>, <actuallyadditions:blockMisc:6>, <ore:compressed2xCobblestone>], [<ore:compressed2xCobblestone>, <ore:compressed2xCobblestone>, <ore:compressed2xCobblestone>]]);
-recipes.addShaped(<refinedstorage:silicon> * 2, [[null, <mysticalagriculture:silicon_essence>, null], [<mysticalagriculture:silicon_essence>, <mysticalagriculture:silicon_essence>, <mysticalagriculture:silicon_essence>], [null, <mysticalagriculture:silicon_essence>, null]]);
 recipes.addShaped(<tp:diamond_spear>, [[null, null, <ore:gemDiamond>], [null, <ore:gemDiamond>, null], [<ore:stickWood>, null, null]]);
 recipes.addShaped(<tp:golden_spear>, [[null, null, <ore:ingotGold>], [null, <ore:ingotGold>, null], [<ore:stickWood>, null, null]]);
 recipes.addShaped(<tp:stone_spear>, [[null, null, <ore:stone>], [null, <ore:stone>, null], [<ore:stickWood>, null, null]]);
