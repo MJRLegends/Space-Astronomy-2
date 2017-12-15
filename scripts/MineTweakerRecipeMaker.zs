@@ -1,4 +1,21 @@
 // ================================================================================
+//#MARKER REMOVE ORE DICTIONARY
+
+val iron = <ore:nuggetIron>;
+var lead = <ore:nuggetLead>;
+var uraniumBlock = <ore:blockUranium>;
+var uraniumIngot = <ore:ingotUranium>;
+iron.remove(<rockhounding_chemistry:miscItems:2>);
+iron.remove(<opencomputers:material>);
+iron.remove(<neotech:nuggetIron>);
+iron.remove(<immersiveengineering:metal:29>);
+lead.remove(<immersiveengineering:metal:22>);
+uraniumBlock.add(<extraplanets:ceres:7>);
+uraniumIngot.add(<extraplanets:ingot_uranium>);
+// ================================================================================
+
+
+// ================================================================================
 //#MARKER REMOVE
 recipes.remove(<extraplanets:tier5_items:7>);
 recipes.remove(<extrautils2:machine>);
@@ -16,6 +33,29 @@ recipes.remove(<tp:wooden_spear>);
 recipes.remove(<betterbuilderswands:wandDiamond>);
 recipes.remove(<betterbuilderswands:wandIron>);
 recipes.remove(<betterbuilderswands:wandStone>);
+
+//Remove Block of Recipes
+recipes.remove(<railcraft:generic>);
+recipes.remove(<railcraft:generic:1>);
+recipes.remove(<railcraft:generic:2>);
+recipes.remove(<railcraft:generic:10>);
+recipes.remove(<railcraft:generic:3>);
+recipes.remove(<railcraft:generic:11>);
+recipes.remove(<railcraft:generic:12>);
+recipes.remove(<immersiveengineering:storage>);
+recipes.remove(<immersiveengineering:storage:1>);
+recipes.remove(<immersiveengineering:storage:2>);
+recipes.remove(<immersiveengineering:storage:3>);
+recipes.remove(<immersiveengineering:storage:8>);
+recipes.remove(<mekanism:BasicBlock:1>);
+recipes.remove(<mekanism:BasicBlock:5>);
+
+// Remove Nuggets Recipes
+recipes.remove(<rockhounding_chemistry:miscItems:2>);
+recipes.remove(<opencomputers:material>);
+recipes.remove(<neotech:nuggetIron>);
+recipes.remove(<immersiveengineering:metal:29>);
+recipes.remove(<immersiveengineering:metal:22>);
 
 //Change Vanilla Recipes
 recipes.remove(<minecraft:golden_hoe>);
@@ -59,6 +99,19 @@ recipes.remove(<ic2:bronze_shovel>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<natura:nether_planks:3>, [<natura:nether_slab:3>, <natura:nether_slab:3>]);
+recipes.addShapeless(<natura:nether_planks:2>, [<natura:nether_slab:2>, <natura:nether_slab:2>]);
+recipes.addShapeless(<natura:nether_planks:1>, [<natura:nether_slab:1>, <natura:nether_slab:1>]);
+recipes.addShapeless(<natura:nether_planks>, [<natura:nether_slab>, <natura:nether_slab>]);
+recipes.addShapeless(<natura:overworld_planks:8>, [<natura:overworld_slab2:3>, <natura:overworld_slab2:3>]);
+recipes.addShapeless(<natura:overworld_planks:7>, [<natura:overworld_slab2:2>, <natura:overworld_slab2:2>]);
+recipes.addShapeless(<natura:overworld_planks:6>, [<natura:overworld_slab2:1>, <natura:overworld_slab2:1>]);
+recipes.addShapeless(<natura:overworld_planks:5>, [<natura:overworld_slab2>, <natura:overworld_slab2>]);
+recipes.addShapeless(<natura:overworld_planks:4>, [<natura:overworld_slab:4>, <natura:overworld_slab:4>]);
+recipes.addShapeless(<natura:overworld_planks:3>, [<natura:overworld_slab:3>, <natura:overworld_slab:3>]);
+recipes.addShapeless(<natura:overworld_planks:2>, [<natura:overworld_slab:2>, <natura:overworld_slab:2>]);
+recipes.addShapeless(<natura:overworld_planks:1>, [<natura:overworld_slab:1>, <natura:overworld_slab:1>]);
+recipes.addShapeless(<natura:overworld_planks>, [<natura:overworld_slab>, <natura:overworld_slab>]);
 recipes.addShapeless(<biomesoplenty:planks_0:15>, [<biomesoplenty:wood_slab_1:7>, <biomesoplenty:wood_slab_1:7>]);
 recipes.addShapeless(<biomesoplenty:planks_0:14>, [<biomesoplenty:wood_slab_1:6>, <biomesoplenty:wood_slab_1:6>]);
 recipes.addShapeless(<biomesoplenty:planks_0:13>, [<biomesoplenty:wood_slab_1:5>, <biomesoplenty:wood_slab_1:5>]);
