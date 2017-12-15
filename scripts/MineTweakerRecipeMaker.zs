@@ -17,6 +17,7 @@ uraniumBlock.add(<extraplanets:ceres:7>);
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<opencomputers:material:8>);
 recipes.remove(<rockhounding_chemistry:miscItems:12>);
 recipes.remove(<sonarcore:StableGlass>);
 recipes.remove(<rockhounding_chemistry:testTube>);
@@ -27,10 +28,10 @@ recipes.remove(<rockhounding_chemistry:gear>);
 recipes.remove(<backport:iron_nugget>);
 recipes.remove(<extrautils2:teleporter:1>);
 recipes.remove(<extraplanets:tier5_items:7>);
-recipes.remove(<extrautils2:machine>);
-recipes.remove(<extrautils2:machine>);
-recipes.remove(<extrautils2:machine>);
-recipes.remove(<extrautils2:machine>);
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_culinary"}));
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_ender"}));
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator"}));
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_netherstar"}));
 recipes.remove(<galacticraftcore:basic_item:2>);
 recipes.remove(<enderio:itemMaterial>);
 recipes.remove(<minecraft:flint_and_steel>);
@@ -108,6 +109,7 @@ recipes.remove(<ic2:bronze_shovel>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<opencomputers:material:8> * 8, [<ore:dustRedstone>, <opencomputers:material:7>, <ore:dustRedstone>]);
 recipes.addShapeless(<sonarcore:StableGlass>, [<sonarcore:ClearStableGlass>]);
 recipes.addShapeless(<minecraft:bone_block>, [<minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>]);
 recipes.addShapeless(<minecraft:carrot> * 9, [<natura:seed_bags:1>]);

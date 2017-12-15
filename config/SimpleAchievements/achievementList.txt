@@ -119,3 +119,9 @@ Plant & Grow a Tier 3 seed from Mystical Agricurlture::0
 Plant & Grow a Tier 4 seed from Mystical Agricurlture::0
 Plant & Grow a Tier 5 seed from Mystical Agricurlture::0
 Collect at least 64 of each Essence Type from Mystical Agricurlture::0
+Robotic Technology::1
+Kill Cyber Zombies and Collect at least one Robotic Part::0
+Find a Robosurgeon Machine in a Nether Forness Loot::0
+Apply at least 2 Robotic Part to Yourself using the Robosurgeon/Surgery Chamber::0
+Use the Cyberware Scanner to Scan Robotic Parts & Obtain 1 Blueprint of a Robotic Parts::0
+Use the Cyberware Engineering Table to Void Warranty on a Robotic Parts::0
