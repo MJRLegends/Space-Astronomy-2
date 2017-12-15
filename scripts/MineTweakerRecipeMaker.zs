@@ -53,6 +53,7 @@ recipes.removeShapeless(<minecraft:dye:15> * 9, [<minecraft:bone_block>]);
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<immersiveengineering:metalDevice1:13>);
 recipes.remove(<actuallyadditions:itemChestObsidian>);
 recipes.remove(<actuallyadditions:obsidianPaxel>);
 recipes.remove(<littletiles:LTStorageBlockTile>);
