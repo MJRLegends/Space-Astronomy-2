@@ -12,8 +12,24 @@ iron.remove(<immersiveengineering:metal:29>);
 lead.remove(<immersiveengineering:metal:22>);
 uraniumIngot.add(<extraplanets:ingot_uranium>);
 uraniumBlock.add(<extraplanets:ceres:7>);
+
+// ================================================================================
+//#MARKER REMOVE/ADD TINKERS SMELTERY MELTING MATERIALS
+mods.tconstruct.Smeltery.removeMelting(<rockhounding_chemistry:gear>);
+mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 144, <rockhounding_chemistry:gear>, 534);
 // ================================================================================
 
+
+// ================================================================================
+//#MARKER REMOVE SHAPED
+
+// ================================================================================
+
+// ================================================================================
+//#MARKER REMOVE SHAPELESS
+recipes.removeShapeless(<minecraft:dye:15> * 9, [<minecraft:bone_block>]);
+
+// ================================================================================
 
 // ================================================================================
 //#MARKER REMOVE
@@ -109,6 +125,7 @@ recipes.remove(<ic2:bronze_shovel>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<minecraft:dye:15> * 4, [<minecraft:bone_block>]);
 recipes.addShapeless(<opencomputers:material:8> * 8, [<ore:dustRedstone>, <opencomputers:material:7>, <ore:dustRedstone>]);
 recipes.addShapeless(<sonarcore:StableGlass>, [<sonarcore:ClearStableGlass>]);
 recipes.addShapeless(<minecraft:bone_block>, [<minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>]);
@@ -149,6 +166,7 @@ recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:itemFlint>, <ore:ingotSt
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<rockhounding_chemistry:agitator>, [[<ore:ingotIron>], [<ore:ingotIron>], [<ore:ingotIron>]]);
 recipes.addShaped(<rockhounding_chemistry:miscItems:12>, [[<ore:ingotSilver>, null, <ore:ingotSilver>], [<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>], [null, <ore:ingotSilver>, null]]);
 recipes.addShaped(<sonarcore:StableGlass>, [[<ore:blockGlass>, <ore:blockGlass>]]);
 recipes.addShaped(<rockhounding_chemistry:testTube>, [[null, <ore:blockGlass>], [<ore:blockGlass>, null]]);

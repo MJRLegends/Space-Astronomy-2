@@ -109,8 +109,8 @@ Use Machines to 4x Your Ores::0
 Use Machines to 5x Your Ores::0
 Build & Use a Powered based Jetpack::0
 Alien Technology::1
-Use Genetucs Reborn to Give Yourself Part of an Animals DNA::0
-Use Genetucs Reborn to Give Yourself All Available Animals DNA::0
+Use Genetics Reborn to Give Yourself Part of an Animals DNA::0
+Use Genetics Reborn to Give Yourself All Available Animals DNA::0
 Create and Use a SG Craft Stargate Portal::0
 Use Mystical Agricurlture to Grow Materials::0
 Plant & Grow a Tier 1 seed from Mystical Agricurlture::0
