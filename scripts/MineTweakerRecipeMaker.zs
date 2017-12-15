@@ -3,20 +3,28 @@
 
 val iron = <ore:nuggetIron>;
 var lead = <ore:nuggetLead>;
-var uraniumBlock = <ore:blockUranium>;
 var uraniumIngot = <ore:ingotUranium>;
+var uraniumBlock = <ore:blockUranium>;
 iron.remove(<rockhounding_chemistry:miscItems:2>);
 iron.remove(<opencomputers:material>);
 iron.remove(<neotech:nuggetIron>);
 iron.remove(<immersiveengineering:metal:29>);
 lead.remove(<immersiveengineering:metal:22>);
-uraniumBlock.add(<extraplanets:ceres:7>);
 uraniumIngot.add(<extraplanets:ingot_uranium>);
+uraniumBlock.add(<extraplanets:ceres:7>);
 // ================================================================================
 
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<rockhounding_chemistry:miscItems:12>);
+recipes.remove(<sonarcore:StableGlass>);
+recipes.remove(<rockhounding_chemistry:testTube>);
+recipes.remove(<minecraft:bone_block>);
+recipes.remove(<minecraft:carrot>);
+recipes.remove(<rockhounding_chemistry:miscItems:42>);
+recipes.remove(<rockhounding_chemistry:gear>);
+recipes.remove(<backport:iron_nugget>);
 recipes.remove(<extrautils2:teleporter:1>);
 recipes.remove(<extraplanets:tier5_items:7>);
 recipes.remove(<extrautils2:machine>);
@@ -100,6 +108,9 @@ recipes.remove(<ic2:bronze_shovel>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<sonarcore:StableGlass>, [<sonarcore:ClearStableGlass>]);
+recipes.addShapeless(<minecraft:bone_block>, [<minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>]);
+recipes.addShapeless(<minecraft:carrot> * 9, [<natura:seed_bags:1>]);
 recipes.addShapeless(<natura:nether_planks:3>, [<natura:nether_slab:3>, <natura:nether_slab:3>]);
 recipes.addShapeless(<natura:nether_planks:2>, [<natura:nether_slab:2>, <natura:nether_slab:2>]);
 recipes.addShapeless(<natura:nether_planks:1>, [<natura:nether_slab:1>, <natura:nether_slab:1>]);
@@ -136,6 +147,13 @@ recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:itemFlint>, <ore:ingotSt
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<rockhounding_chemistry:miscItems:12>, [[<ore:ingotSilver>, null, <ore:ingotSilver>], [<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>], [null, <ore:ingotSilver>, null]]);
+recipes.addShaped(<sonarcore:StableGlass>, [[<ore:blockGlass>, <ore:blockGlass>]]);
+recipes.addShaped(<rockhounding_chemistry:testTube>, [[null, <ore:blockGlass>], [<ore:blockGlass>, null]]);
+recipes.addShaped(<minecraft:carrot> * 12, [[<mysticalagriculture:nature_essence>, <mysticalagriculture:nature_essence>], [null, <mysticalagriculture:nature_essence>]]);
+recipes.addShaped(<rockhounding_chemistry:miscItems:42> * 8, [[null, <ore:ingotIron>, null], [<ore:ingotIron>, null, <ore:ingotIron>], [null, <ore:ingotIron>, null]]);
+recipes.addShaped(<backport:iron_nugget> * 9, [[null, null, null], [null, <minecraft:iron_ingot>, null], [null, null, null]]);
+recipes.addShaped(<rockhounding_chemistry:gear>, [[<ore:ingotIron>]]);
 recipes.addShaped(<extrautils2:teleporter:1>, [[<ore:compressed2xCobblestone>, <ore:compressed2xCobblestone>, <ore:compressed2xCobblestone>], [<ore:compressed2xCobblestone>, <actuallyadditions:blockMisc:6>, <ore:compressed2xCobblestone>], [<ore:compressed2xCobblestone>, <ore:compressed2xCobblestone>, <ore:compressed2xCobblestone>]]);
 recipes.addShaped(<refinedstorage:silicon> * 2, [[null, <mysticalagriculture:silicon_essence>, null], [<mysticalagriculture:silicon_essence>, <mysticalagriculture:silicon_essence>, <mysticalagriculture:silicon_essence>], [null, <mysticalagriculture:silicon_essence>, null]]);
 recipes.addShaped(<tp:diamond_spear>, [[null, null, <ore:gemDiamond>], [null, <ore:gemDiamond>, null], [<ore:stickWood>, null, null]]);

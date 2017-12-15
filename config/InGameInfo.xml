@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <config>
-    <lines at="middleleft">
+    <lines at="BOTTOMRIGHT">
         <line>
             <str>Day: §e{day}§f</str>
         </line>

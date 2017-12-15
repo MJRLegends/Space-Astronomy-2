@@ -57,7 +57,7 @@ key_key.ftbu.warp:0:NONE
 key_Dragons Breath:35:NONE
 key_Teleport:62:NONE
 key_ingameinfoxml.key.toggle:64:NONE
-key_Open Backpack:46:NONE
+key_Open Backpack:38:NONE
 key_Equip/Unequip Backpack:47:NONE
 key_Open MPS Keybind GUI:83:NONE
 key_Go Down (MPS Flight Control):44:NONE
@@ -154,8 +154,8 @@ key_key.debugDumpNBTBlock:0:NONE
 key_key.journeymap.map_toggle:36:NONE
 key_key.journeymap.zoom_in:13:NONE
 key_key.journeymap.zoom_out:12:NONE
-key_key.journeymap.minimap_type:27:NONE
-key_key.journeymap.minimap_type:27:NONE
+key_key.journeymap.minimap_type:211:NONE
+key_key.journeymap.minimap_type:207:NONE
 key_key.journeymap.minimap_preset:43:NONE
 key_key.journeymap.create_waypoint:48:NONE
 key_keybind.railcraft.loco.reverse:53:ALT
