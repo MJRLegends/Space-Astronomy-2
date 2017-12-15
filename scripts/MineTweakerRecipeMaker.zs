@@ -367,6 +367,7 @@ game.setLocalization("Blood.name", "Blood");
 game.setLocalization("item.BirthdayPickaxe.name", "Brithday Pickaxe");
 game.setLocalization("item.immersiveengineering.toolupgrade.drillLube.name", "Advanced Lubrication System");
 game.setLocalization("entity.randomthings.playerSoul.name", "Soul of a Player");
+game.setLocalization("entity.Villager.alchemist", "Alchemist");
 // ================================================================================
 
 // ================================================================================
