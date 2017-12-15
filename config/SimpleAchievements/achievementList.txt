@@ -1,3 +1,5 @@
+====================== Welcome | to | Space Astronomy 2!|======================| | This book is designed| to help you along the way!| | -------------- | | This book is no direct order so checking out all pages is needed! | | | | | Made by MJRLegends::1
+======================::1
 Getting Started::1
 Read all the Books which you Gain when Starting the World::0
 Craft a Wooden Pickaxe (From Tinkers Construct)!::0
@@ -9,6 +11,7 @@ Obtain 20 of Any Food::0
 Obtain 64 of Any Food::0
 Setup a Mining Area & Create Some Torches!::0
 Setup a Smeltery at Least with 3 Layers::0
+Break a Chance Cube::0
 Traveling Around::1
 Visit The Nether!::0
 Visit The Mining World!::0
@@ -35,6 +38,9 @@ Create Tier 5 Thermal Armour::0
 Build and Use Each Tier of Space Suits::0
 Build a Stable Oxygen Filling Setup in the Overworld::0
 Fill at least 2 Heavy Oxygen Tanks with Oxygen::0
+::1
+::1
+::1
 Building Rockets::1
 Build a Tier 1 Rocket::0
 Build a Tier 2 Rocket::0
@@ -49,35 +55,38 @@ Build a Tier 10 Rocket::0
 Build a Tier 10 Electric Rocket::0
 ::1
 ::1
-::1
-::1
-::1
 Exploring the Universe::1
-Visit the Mercury::0
+Visit the Planet Mercury::0
 Visit the Moon::0
-Visit the Venus::0
-Visit the Mars::0
-Visit the Ceres::0
-Visit the Jupiter::0
-Visit the Saturn::0
-Visit the Uranus::0
-Visit the Neptune::0
-Visit the Pluto::0
-Visit the Eris::0
-Visit the Kepler22b::0
+Visit the Planet Venus::0
+Visit the Planet Mars::0
+Visit the Planet Ceres::0
+Visit the Planet Jupiter::0
+Visit the Planet Saturn::0
+Visit the Planet Uranus::0
+Visit the Planet Neptune::0
+Visit the Planet Pluto::0
+Visit the Planet Eris::0
+Visit the Planet Kepler22b::0
 Visit the All the Moons::0
 Defeat all of the Dungeon Bosses::0
 Collect all 15 NASA Workbench Schematics::0
+Trade at Least one Schematic with the Aliens on the Moon::0
+Use the Deconstructor to Break Down Unused Rockets::0
+::1
+::1
 Surviving & Living Out in the Universe::1
 Build & Travel 500 Blocks in a Moon Buggy::0
 Build & Travel 500 Blocks in a Venus Rover::0
 Build & Travel 500 Blocks in a Mars Rover::0
 Design & Build a Space Station with a Y Height of 60::0
-Design & Build a Space Station on at least 2 Planets::0
+Design & Build a Space Station on at Least 2 Planets::0
 Design & Build a Base on each Planet::0
+Use the Spin Thrusters to Make Artificial Gravity on Space Stations::0
 Craft & Build a Space Air lock using a Dual Air Lock Design::0
 Trade at least 64 Lunar Sapphire's with an Alien Villager::0
 Travel around the Asteroids using a Grapple from Galacticraft::0
+Use at Least 1 Oxygen Sealer to seal a base outside of the Overworld::0
 Basic Power Systems::1
 Produce 500 RF/t::0
 Produce 1k RF/t::0
@@ -89,9 +98,12 @@ Create a Stable Supply of Power::0
 Create a Basic Powered Based Storage System::0
 Automate Mining using a Powered Based Quarry (RFTools Builder is a good one)::0
 Create & Construct a Mining World Portal (Portal Frames/Mining Multitool)::0
+Create a Basic Mob Grider/Slaughterhouse (With at Least 1 Spawner)::0
+::1
+::1
 Advanced Power Systems::1
-Create a Passively cooled reactor from the Extreme Reactors::0
-Create an Actively cooled reactor from the Extreme Reactors::0
+Create a Passively cooled Reactor from the Extreme Reactors::0
+Create a Actively cooled Reactor from the Extreme Reactors::0
 Create a Turbine from the Extreme Reactors::0
 Create a Fusion Reactor, with a Stable Fuel Source::0
 Produce 10k RF/t::0
@@ -101,22 +113,41 @@ Produce 10 million RF/t::0
 Create a Stable Storage of 100K RF/t::0
 Create a Stable Storage of 1 Million RF/t::0
 Create a Stable Storage of 50 Million RF/t::0
-::1
-::1
 Advanced Technology::1
+Use a Type of Wireless Power Transfer::0
 Create a Basic Refined Storage System::0
 Create a Automated Crafting System using Refined Storage::0
-Store up 250K of each Ingot Type::0
-Store up 500K of each Ingot Type::0
-Use at least 1 Oxygen Sealer to seal a base outside of the Overworld::0
+Store up 250K of each of the following Ingots: Iron, Gold, Silver, Tin, Steel, Uranium, Lead, Bronze, Copper, Aluminium, Nickel and All of the Galacticraft & ExtraPlanets Ingots::0
+Store up 500K of each of the following Ingots: Iron, Gold, Silver, Tin, Steel, Uranium, Lead, Bronze, Copper, Aluminium, Nickel and All of the Galacticraft & ExtraPlanets Ingots::0
 Use Machines to 3x Your Ores::0
 Use Machines to 4x Your Ores::0
 Use Machines to 5x Your Ores::0
-Build & Use a Powered based Jetpack::0
-Alien Technology::1
-Use Genetics Reborn to Give Yourself Part of an Animals DNA::0
-Use Genetics Reborn to Give Yourself All Available Animals DNA::0
-Create and Use a SG Craft Stargate Portal::0
+Create a Advanced Mob Grider/Slaughterhouse (With at Least 5 Spawner)::0
+::1
+::1
+::1
+StarLight Technology::1
+Store Some Constellation Papers in the Astral Socery Journal::0
+Build a Resonating Wand & Use it to Find Materials Underground::0
+Build a Luminous Crafting Table::0
+Use the Light Well to Collect SkyLight::0
+Use a Resonating Wand to Craft a Item or Block::0
+Build a Sky Wave Resonator & Use it to Find High SkyLight Areas::0
+Use the Grindstone to Grind Rock Crystals or/and Tools::0
+Upgrade the Luminous Crafting Table to a StarLight Crafting Altar & Build the StarLight Crafting Altar Structure::0
+Use the Hand Telescope to Find/Mark Constellation with the Help of Constellation Papers::0
+Unlock the Exploration Section in the Astral Socery Journal::0
+Unlock the Constellation Section in the Astral Socery Journal::0
+Unlock the Attunment Section in the Astral Socery Journal::0
+Unlock the Radiance Section in the Astral Socery Journal::0
+Renewable Technology::1
+Make the Switch to Fully using Renewable Power Sources::0
+Use At Least One Following For Power Generation, Wind Generators/Mills, Solar Panels, Water Wheel/Mills::0
+Use All of the Following For Power Generation, Wind Generators/Mills, Solar Panels, Water Wheel/Mills::0
+Farming Technology::1
+Make a Manual Farm Which Bigger Than 6 x 6::0
+Make a Automated Farm Which Bigger than 6 x 6 But Less Than 16x16::0
+Make a Automated Farm Which Bigger than 16 x 16::0
 Use Mystical Agricurlture to Grow Materials::0
 Plant & Grow a Tier 1 seed from Mystical Agricurlture::0
 Plant & Grow a Tier 2 seed from Mystical Agricurlture::0
@@ -124,9 +155,21 @@ Plant & Grow a Tier 3 seed from Mystical Agricurlture::0
 Plant & Grow a Tier 4 seed from Mystical Agricurlture::0
 Plant & Grow a Tier 5 seed from Mystical Agricurlture::0
 Collect at least 64 of each Essence Type from Mystical Agricurlture::0
+Setup an 8 x 8 Area, For Each of the Seeds from Mystical Agricurlture::0
+Planet & Grow One of Every Crop in Pam's HarvestCraft::0
+::1
+Alien Technology::1
+Use Genetics Reborn to Give Yourself Part of an Animals DNA::0
+Use Genetics Reborn to Give Yourself All Available Animals DNA::0
+Create and Use a SG Craft Stargate Portal::0
+Setup at Least 5 Destinations to Travel with the Stargate Portal::0
 Robotic Technology::1
 Kill Cyber Zombies and Collect at least one Robotic Part::0
 Find a Robosurgeon Machine in a Nether Forness Loot::0
 Apply at least 2 Robotic Part to Yourself using the Robosurgeon/Surgery Chamber::0
 Use the Cyberware Scanner to Scan Robotic Parts & Obtain 1 Blueprint of a Robotic Parts::0
 Use the Cyberware Engineering Table to Void Warranty on a Robotic Parts::0
+::1
+======================::1
+End of Achievements::1
+======================::1

@@ -303,7 +303,6 @@ game.setLocalization("item.immersiveengineering.toolupgrade.drillLube.name", "Ad
 
 // ================================================================================
 //#MARKER REMOVE/ADD TINKERS SMELTERY MELTING MATERIALS
-mods.tconstruct.Smeltery.removeMelting(<rockhounding_chemistry:gear>);
 mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 144, <rockhounding_chemistry:gear>, 534);
 // ================================================================================
 
