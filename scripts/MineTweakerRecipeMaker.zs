@@ -19,7 +19,9 @@ var uraniumIngot = <ore:ingotUranium>;
 var uraniumBlock = <ore:blockUranium>;
 var nickelOre = <ore:oreNickel>;
 var uraniumOre = <ore:oreUranium>;
+var enderioSilicon = <ore:itemSilicon>;
 
+enderioSilicon.remove(<enderio:itemMaterial>);
 uraniumOre.add(<bigreactors:brore>);
 nickelOre.remove(<extraplanets:jupiter:7>);
 
@@ -55,6 +57,8 @@ recipes.removeShapeless(<minecraft:dye:15> * 9, [<minecraft:bone_block>]);
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<galacticraftplanets:geothermal_generator>);
+recipes.remove(<galacticraftplanets:atomic_battery>);
 recipes.remove(<bigreactors:blockmetals>);
 recipes.remove(<neotech:furnaceGenerator>);
 recipes.remove(<harvestcraft:freshwateritem>);
@@ -163,6 +167,7 @@ recipes.remove(<ic2:bronze_shovel>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<refinedstorage:silicon>, [<enderio:itemMaterial>]);
 recipes.addShapeless(<neotech:dustLead>, [<ore:dustLead>]);
 recipes.addShapeless(<immersiveengineering:metal:10>, [<rockhounding_chemistry:chemicalDusts:24>]);
 recipes.addShapeless(<bigreactors:blockmetals>, [<ore:blockUranium>]);
@@ -210,7 +215,6 @@ recipes.addShapeless(<biomesoplenty:planks_0:1>, [<biomesoplenty:wood_slab_0:1>,
 recipes.addShapeless(<biomesoplenty:planks_0>, [<biomesoplenty:wood_slab_0>, <biomesoplenty:wood_slab_0>]);
 recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:itemFlint>, <ore:ingotSteel>]);
 
-
 //Dust Unify
 recipes.addShapeless(<neotech:dustCopper>, [<rockhounding_chemistry:chemicalDusts:17>]);
 recipes.addShapeless(<neotech:dustGold>, [<rockhounding_chemistry:chemicalDusts:45>]);
@@ -229,6 +233,8 @@ recipes.addShapeless(<neotech:dustTin>, [<ic2:dust:17>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<galacticraftplanets:geothermal_generator>, [[<galacticraftcore:basic_item:10>, <galacticraftplanets:atmospheric_valve>, <galacticraftcore:basic_item:10>], [<galacticraftcore:aluminum_wire>, <galacticraftcore:machine>, <galacticraftcore:aluminum_wire>], [<galacticraftcore:basic_item:10>, <ore:ingotLead>, <galacticraftcore:basic_item:10>]]);
+recipes.addShaped(<galacticraftplanets:atomic_battery>, [[<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>], [<ore:ingotLead>, <galacticraftplanets:basic_item_venus:2>, <ore:ingotLead>], [<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>]]);
 recipes.addShaped(<harvestcraft:freshwateritem>, [[null, null, null],[<minecraft:water_bucket>, null, null], [null, null, null],]);
 recipes.addShaped(<littletiles:LTTransparentColoredBlock:5>, [[null, null, null],[null, null, <minecraft:water_bucket>], [null, null, null],]);
 recipes.addShaped(<ic2:te:58>, [[<ore:circuitBasic>, <minecraft:chest>, <ore:circuitBasic>], [<minecraft:shears>, <ic2:resource:12>, <minecraft:shears>], [<minecraft:wooden_hoe>, <minecraft:wooden_hoe>, <minecraft:wooden_hoe>]]);

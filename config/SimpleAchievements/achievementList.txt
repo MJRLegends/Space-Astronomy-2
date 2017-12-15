@@ -122,7 +122,7 @@ Store up 500K of each of the following Ingots: Iron, Gold, Silver, Tin, Steel, U
 Use Machines to 3x Your Ores::0
 Use Machines to 4x Your Ores::0
 Use Machines to 5x Your Ores::0
-Create a Advanced Mob Grider/Slaughterhouse (With at Least 5 Spawner)::0
+Create a Advanced Mob Grider/Slaughterhouse (With at Least 5 Spawners)::0
 ::1
 ::1
 ::1
