@@ -53,6 +53,9 @@ recipes.removeShapeless(<minecraft:dye:15> * 9, [<minecraft:bone_block>]);
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<ic2:te:59>);
+recipes.remove(<ic2:te:58>);
+recipes.remove(<ic2:crop_stick>);
 recipes.remove(<immersiveengineering:metalDevice1:13>);
 recipes.remove(<actuallyadditions:itemChestObsidian>);
 recipes.remove(<actuallyadditions:obsidianPaxel>);
@@ -202,6 +205,8 @@ recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:itemFlint>, <ore:ingotSt
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<ic2:te:58>, [[<ore:circuitBasic>, <minecraft:chest>, <ore:circuitBasic>], [<minecraft:shears>, <ic2:resource:12>, <minecraft:shears>], [<minecraft:wooden_hoe>, <minecraft:wooden_hoe>, <minecraft:wooden_hoe>]]);
+recipes.addShaped(<ic2:te:59>, [[<ore:circuitBasic>, <minecraft:chest>, <ore:circuitBasic>], [<ic2:fluid_cell:*>, <ic2:resource:12>, <ic2:fluid_cell>], [<minecraft:wooden_hoe>, <minecraft:wooden_hoe>, <minecraft:wooden_hoe>]]);
 recipes.addShaped(<actuallyadditions:obsidianPaxel>, [[<mekanismtools:ObsidianAxe>, <mekanismtools:ObsidianSword>, <mekanismtools:ObsidianShovel>], [<mekanismtools:ObsidianPickaxe>, <ore:stickWood>, <mekanismtools:ObsidianHoe>], [null, <ore:stickWood>, null]]);
 recipes.addShaped(<littletiles:LTStorageBlockTile>, [[null, <minecraft:chest>, null], [null, null, null], [null, null, null]]);
 recipes.addShaped(<extrautils2:minichest>, [[null, null, null], [null, null, null], [null, <minecraft:chest>, null]]);
