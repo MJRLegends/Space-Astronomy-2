@@ -204,72 +204,6 @@
     "secondaryOutputPercentChance": 0
   },
   {
-    "inputItemStack": "ingotEbonyPsi",
-    "outputItemStack": "dustEbonyPsi:1",
-    "outputSecondary": "",
-    "secondaryOutputPercentChance": 0
-  },
-  {
-    "inputItemStack": "ingotIvoryPsi",
-    "outputItemStack": "dustIvoryPsi:1",
-    "outputSecondary": "",
-    "secondaryOutputPercentChance": 0
-  },
-  {
-    "inputItemStack": "ingotElectricalSteel",
-    "outputItemStack": "dustElectricalSteel:1",
-    "outputSecondary": "",
-    "secondaryOutputPercentChance": 0
-  },
-  {
-    "inputItemStack": "ingotEnergeticAlloy",
-    "outputItemStack": "dustEnergeticAlloy:1",
-    "outputSecondary": "",
-    "secondaryOutputPercentChance": 0
-  },
-  {
-    "inputItemStack": "ingotVibrantAlloy",
-    "outputItemStack": "dustVibrantAlloy:1",
-    "outputSecondary": "",
-    "secondaryOutputPercentChance": 0
-  },
-  {
-    "inputItemStack": "ingotRedstoneAlloy",
-    "outputItemStack": "dustRedstoneAlloy:1",
-    "outputSecondary": "",
-    "secondaryOutputPercentChance": 0
-  },
-  {
-    "inputItemStack": "ingotConductiveIron",
-    "outputItemStack": "dustConductiveIron:1",
-    "outputSecondary": "",
-    "secondaryOutputPercentChance": 0
-  },
-  {
-    "inputItemStack": "ingotPulsatingIron",
-    "outputItemStack": "dustPulsatingIron:1",
-    "outputSecondary": "",
-    "secondaryOutputPercentChance": 0
-  },
-  {
-    "inputItemStack": "ingotDarkSteel",
-    "outputItemStack": "dustDarkSteel:1",
-    "outputSecondary": "",
-    "secondaryOutputPercentChance": 0
-  },
-  {
-    "inputItemStack": "ingotSoularium",
-    "outputItemStack": "dustSoularium:1",
-    "outputSecondary": "",
-    "secondaryOutputPercentChance": 0
-  },
-  {
-    "inputItemStack": "ingotEnchantedMetal",
-    "outputItemStack": "dustEnchantedMetal:1",
-    "outputSecondary": "",
-    "secondaryOutputPercentChance": 0
-  },
-  {
     "inputItemStack": "oreNickel",
     "outputItemStack": "dustNickel:2",
     "outputSecondary": "",
@@ -294,72 +228,6 @@
     "secondaryOutputPercentChance": 0
   },
   {
-    "inputItemStack": "ingotZinc",
-    "outputItemStack": "dustZinc:1",
-    "outputSecondary": "",
-    "secondaryOutputPercentChance": 0
-  },
-  {
-    "inputItemStack": "ingotNeon",
-    "outputItemStack": "dustNeon:1",
-    "outputSecondary": "",
-    "secondaryOutputPercentChance": 0
-  },
-  {
-    "inputItemStack": "ingotMagnetite",
-    "outputItemStack": "dustMagnetite:1",
-    "outputSecondary": "",
-    "secondaryOutputPercentChance": 0
-  },
-  {
-    "inputItemStack": "ingotRetium",
-    "outputItemStack": "dustRetium:1",
-    "outputSecondary": "",
-    "secondaryOutputPercentChance": 0
-  },
-  {
-    "inputItemStack": "ingotGlowtite",
-    "outputItemStack": "dustGlowtite:1",
-    "outputSecondary": "",
-    "secondaryOutputPercentChance": 0
-  },
-  {
-    "inputItemStack": "ingotBioterium",
-    "outputItemStack": "dustBioterium:1",
-    "outputSecondary": "",
-    "secondaryOutputPercentChance": 0
-  },
-  {
-    "inputItemStack": "ingotWakurum",
-    "outputItemStack": "dustWakurum:1",
-    "outputSecondary": "",
-    "secondaryOutputPercentChance": 0
-  },
-  {
-    "inputItemStack": "ingotQuantanium",
-    "outputItemStack": "dustQuantanium:1",
-    "outputSecondary": "",
-    "secondaryOutputPercentChance": 0
-  },
-  {
-    "inputItemStack": "ingotRareEarthMetal",
-    "outputItemStack": "dustRareEarthMetal:1",
-    "outputSecondary": "",
-    "secondaryOutputPercentChance": 0
-  },
-  {
-    "inputItemStack": "ingotGadolinium",
-    "outputItemStack": "dustGadolinium:1",
-    "outputSecondary": "",
-    "secondaryOutputPercentChance": 0
-  },
-  {
-    "inputItemStack": "ingotLithium",
-    "outputItemStack": "dustLithium:1",
-    "outputSecondary": "",
-    "secondaryOutputPercentChance": 0
-  },
-  {
     "inputItemStack": "ingotNeodymium",
     "outputItemStack": "dustNeodymium:1",
     "outputSecondary": "",
@@ -374,30 +242,6 @@
   {
     "inputItemStack": "ingotArdite",
     "outputItemStack": "dustArdite:1",
-    "outputSecondary": "",
-    "secondaryOutputPercentChance": 0
-  },
-  {
-    "inputItemStack": "ingotManyullyn",
-    "outputItemStack": "dustManyullyn:1",
-    "outputSecondary": "",
-    "secondaryOutputPercentChance": 0
-  },
-  {
-    "inputItemStack": "ingotKnightslime",
-    "outputItemStack": "dustKnightslime:1",
-    "outputSecondary": "",
-    "secondaryOutputPercentChance": 0
-  },
-  {
-    "inputItemStack": "ingotPigiron",
-    "outputItemStack": "dustPigiron:1",
-    "outputSecondary": "",
-    "secondaryOutputPercentChance": 0
-  },
-  {
-    "inputItemStack": "ingotAlubrass",
-    "outputItemStack": "dustAlubrass:1",
     "outputSecondary": "",
     "secondaryOutputPercentChance": 0
   },
@@ -470,12 +314,6 @@
   {
     "inputItemStack": "oreZinc",
     "outputItemStack": "dustZinc:2",
-    "outputSecondary": "",
-    "secondaryOutputPercentChance": 0
-  },
-  {
-    "inputItemStack": "oreManganese",
-    "outputItemStack": "dustManganese:2",
     "outputSecondary": "",
     "secondaryOutputPercentChance": 0
   },
@@ -606,18 +444,6 @@
     "secondaryOutputPercentChance": 0
   },
   {
-    "inputItemStack": "ingotNaquadahAlloy",
-    "outputItemStack": "dustNaquadahAlloy:1",
-    "outputSecondary": "",
-    "secondaryOutputPercentChance": 0
-  },
-  {
-    "inputItemStack": "ingotDarkSoularium",
-    "outputItemStack": "dustDarkSoularium:1",
-    "outputSecondary": "",
-    "secondaryOutputPercentChance": 0
-  },
-  {
     "inputItemStack": "oreQuartzBlack",
     "outputItemStack": "dustQuartzBlack:2",
     "outputSecondary": "",
@@ -668,18 +494,6 @@
   {
     "inputItemStack": "oreYellorium",
     "outputItemStack": "dustUranium:2",
-    "outputSecondary": "",
-    "secondaryOutputPercentChance": 0
-  },
-  {
-    "inputItemStack": "oreMagnetite",
-    "outputItemStack": "dustMagnetite:2",
-    "outputSecondary": "",
-    "secondaryOutputPercentChance": 0
-  },
-  {
-    "inputItemStack": "ingotManganese",
-    "outputItemStack": "dustManganese:1",
     "outputSecondary": "",
     "secondaryOutputPercentChance": 0
   },

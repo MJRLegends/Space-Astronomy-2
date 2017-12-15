@@ -20,7 +20,9 @@ var uraniumBlock = <ore:blockUranium>;
 var nickelOre = <ore:oreNickel>;
 var uraniumOre = <ore:oreUranium>;
 var enderioSilicon = <ore:itemSilicon>;
+var enderEssenceOre = <ore:oreEnderEssence>;
 
+enderEssenceOre.add(<biomesoplenty:biome_block>);
 enderioSilicon.remove(<enderio:itemMaterial>);
 uraniumOre.add(<bigreactors:brore>);
 nickelOre.remove(<extraplanets:jupiter:7>);
