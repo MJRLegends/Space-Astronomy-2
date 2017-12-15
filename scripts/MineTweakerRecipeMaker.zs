@@ -21,7 +21,12 @@ var nickelOre = <ore:oreNickel>;
 var uraniumOre = <ore:oreUranium>;
 var enderioSilicon = <ore:itemSilicon>;
 var enderEssenceOre = <ore:oreEnderEssence>;
+var foodSalt = <ore:foodSalt>;
+var itemSalt = <ore:itemSalt>;
 
+foodSalt.add(<mekanism:Salt>);
+foodSalt.add(<rockhounding_chemistry:chemicalItems:1>);
+itemSalt.add(<rockhounding_chemistry:chemicalItems:1>);
 enderEssenceOre.add(<biomesoplenty:biome_block>);
 enderioSilicon.remove(<enderio:itemMaterial>);
 uraniumOre.add(<bigreactors:brore>);
@@ -59,6 +64,16 @@ recipes.removeShapeless(<minecraft:dye:15> * 9, [<minecraft:bone_block>]);
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_pink"}));
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_ice"}));
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_enchant"}));
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_dragonsbreath"}));
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_lava"}));
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_slime"}));
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_potion"}));
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_overclock"}));
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_tnt"}));
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_death"}));
 recipes.remove(<galacticraftplanets:geothermal_generator>);
 recipes.remove(<galacticraftplanets:atomic_battery>);
 recipes.remove(<bigreactors:blockmetals>);
@@ -235,6 +250,17 @@ recipes.addShapeless(<neotech:dustTin>, [<ic2:dust:17>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_pink"}), [[<ore:dyePink>, <ore:dyePink>, <ore:dyePink>], [<ore:dyePink>, <minecraft:wool:6>, <ore:dyePink>], [<ore:dustRedstone>, <simplegenerators:furnace_generator>, <ore:dustRedstone>]]);
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_ice"}), [[<minecraft:snowball>, <minecraft:snowball>, <minecraft:snowball>], [<minecraft:snowball>, <ore:blockIce>, <minecraft:snowball>], [<ore:dustRedstone>, <simplegenerators:furnace_generator>, <ore:dustRedstone>]]);
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_enchant"}), [[<ore:blockMagicalWood>, <ore:blockMagicalWood>, <ore:blockMagicalWood>], [<ore:blockMagicalWood>, <minecraft:enchanting_table>, <ore:blockMagicalWood>], [<ore:dustRedstone>, <simplegenerators:furnace_generator>, <ore:dustRedstone>]]);
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_dragonsbreath"}), [[<minecraft:purpur_block>, <minecraft:purpur_block>, <minecraft:purpur_block>], [<minecraft:purpur_block>, <minecraft:end_rod>, <minecraft:purpur_block>], [<ore:dustRedstone>, <simplegenerators:furnace_generator>, <ore:dustRedstone>]]);
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_lava"}), [[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>], [<ore:ingotGold>, <minecraft:lava_bucket>, <ore:ingotGold>], [<ore:dustRedstone>, <simplegenerators:furnace_generator>, <ore:dustRedstone>]]);
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_slime"}), [[<ore:slimeballGreen>, <ore:slimeballGreen>, <ore:slimeballGreen>], [<ore:slimeballGreen>, <ore:blockSlime>, <ore:slimeballGreen>], [<ore:dustRedstone>, <simplegenerators:furnace_generator>, <ore:dustRedstone>]]);
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_potion"}), [[<ore:itemBlazeRod>, <ore:itemBlazeRod>, <ore:itemBlazeRod>], [<ore:itemBlazeRod>, <minecraft:brewing_stand>, <ore:itemBlazeRod>], [<ore:dustRedstone>, <simplegenerators:furnace_generator>, <ore:dustRedstone>]]);
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_overclock"}), [[<ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>], [<ore:gemLapis>, <ore:blockGold>, <ore:gemLapis>], [<ore:dustRedstone>, <simplegenerators:furnace_generator>, <ore:dustRedstone>]]);
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_tnt"}), [[<ore:gunpowder>, <ore:gunpowder>, <ore:gunpowder>], [<ore:gunpowder>, <minecraft:tnt>, <ore:gunpowder>], [<ore:dustRedstone>, <simplegenerators:furnace_generator>, <ore:dustRedstone>]]);
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_death"}), [[<minecraft:bone>, <minecraft:bone>, <minecraft:bone>], [<minecraft:bone>, <minecraft:spider_eye>, <minecraft:bone>], [<ore:dustRedstone>, <simplegenerators:furnace_generator>, <ore:dustRedstone>]]);
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_death"}), [[<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>], [<minecraft:rotten_flesh>, <minecraft:spider_eye>, <minecraft:rotten_flesh>], [<ore:dustRedstone>, <simplegenerators:furnace_generator>, <ore:dustRedstone>]]);
 recipes.addShaped(<galacticraftplanets:geothermal_generator>, [[<galacticraftcore:basic_item:10>, <galacticraftplanets:atmospheric_valve>, <galacticraftcore:basic_item:10>], [<galacticraftcore:aluminum_wire>, <galacticraftcore:machine>, <galacticraftcore:aluminum_wire>], [<galacticraftcore:basic_item:10>, <ore:ingotLead>, <galacticraftcore:basic_item:10>]]);
 recipes.addShaped(<galacticraftplanets:atomic_battery>, [[<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>], [<ore:ingotLead>, <galacticraftplanets:basic_item_venus:2>, <ore:ingotLead>], [<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>]]);
 recipes.addShaped(<harvestcraft:freshwateritem>, [[null, null, null],[<minecraft:water_bucket>, null, null], [null, null, null],]);
@@ -307,6 +333,7 @@ game.setLocalization("item.lemondrizzlecakeitem.name", "Lemon Drizzle Cake");
 game.setLocalization("Blood.name", "Blood");
 game.setLocalization("item.BirthdayPickaxe.name", "Brithday Pickaxe");
 game.setLocalization("item.immersiveengineering.toolupgrade.drillLube.name", "Advanced Lubrication System");
+game.setLocalization("entity.randomthings.playerSoul.name", "Soul of a Player");
 // ================================================================================
 
 // ================================================================================

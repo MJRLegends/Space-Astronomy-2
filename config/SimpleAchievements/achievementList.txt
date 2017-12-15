@@ -139,7 +139,7 @@ Use the Hand Telescope to Find/Mark Constellation with the Help of Constellation
 Unlock the Exploration Section in the Astral Socery Journal::0
 Unlock the Constellation Section in the Astral Socery Journal::0
 Unlock the Attunment Section in the Astral Socery Journal::0
-Unlock the Radiance Section in the Astral Socery Journal::0
+Complete all Tasks in the Exploration, Constellation, Attunment Sections in the Astral Socery Journal::0
 Renewable Technology::1
 Make the Switch to Fully using Renewable Power Sources::0
 Use At Least One Following For Power Generation, Wind Generators/Mills, Solar Panels, Water Wheel/Mills::0
