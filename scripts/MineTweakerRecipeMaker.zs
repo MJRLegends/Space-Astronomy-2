@@ -12,6 +12,7 @@ var lapisDust = <ore:dustLapis>;
 var tinDust = <ore:dustTin>;
 var uraniumIngot = <ore:ingotUranium>;
 var uraniumBlock = <ore:blockUranium>;
+
 ironNugget.add(<backport:iron_nugget>);
 uraniumIngot.add(<extraplanets:ingot_uranium>);
 uraniumBlock.add(<extraplanets:ceres:7>);
@@ -207,8 +208,8 @@ recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:itemFlint>, <ore:ingotSt
 
 // ================================================================================
 //#MARKER ADD SHAPED
-recipes.addShaped(<harvestcraft:freshwateritem>, [[null, null, null], [<minecraft:water_bucket>, null, null], [null, null, null]]);
-recipes.addShaped(<littletiles:LTTransparentColoredBlock:5>, [[null, null, null], [null, null, <minecraft:water_bucket>], [null, null, null]]);
+recipes.addShaped(<harvestcraft:freshwateritem>, [[null, null, null],[<minecraft:water_bucket>, null, null], [null, null, null],]);
+recipes.addShaped(<littletiles:LTTransparentColoredBlock:5>, [[null, null, null],[null, null, <minecraft:water_bucket>], [null, null, null],]);
 recipes.addShaped(<ic2:te:58>, [[<ore:circuitBasic>, <minecraft:chest>, <ore:circuitBasic>], [<minecraft:shears>, <ic2:resource:12>, <minecraft:shears>], [<minecraft:wooden_hoe>, <minecraft:wooden_hoe>, <minecraft:wooden_hoe>]]);
 recipes.addShaped(<ic2:te:59>, [[<ore:circuitBasic>, <minecraft:chest>, <ore:circuitBasic>], [<ic2:fluid_cell:*>, <ic2:resource:12>, <ic2:fluid_cell>], [<minecraft:wooden_hoe>, <minecraft:wooden_hoe>, <minecraft:wooden_hoe>]]);
 recipes.addShaped(<actuallyadditions:obsidianPaxel>, [[<mekanismtools:ObsidianAxe>, <mekanismtools:ObsidianSword>, <mekanismtools:ObsidianShovel>], [<mekanismtools:ObsidianPickaxe>, <ore:stickWood>, <mekanismtools:ObsidianHoe>], [null, <ore:stickWood>, null]]);
