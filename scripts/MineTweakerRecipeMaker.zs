@@ -378,6 +378,7 @@ game.setLocalization("entity.Villager.alchemist", "Alchemist");
 // ================================================================================
 //#MARKER REMOVE/ADD TINKERS SMELTERY MELTING MATERIALS
 mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 144, <rockhounding_chemistry:gear>, 534);
+mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 16, <backport:iron_nugget>, 345);
 // ================================================================================
 
 // ================================================================================
