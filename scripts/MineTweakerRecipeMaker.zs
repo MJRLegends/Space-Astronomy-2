@@ -219,6 +219,7 @@ recipes.remove(<ic2:bronze_shovel>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<ic2:dust:16>, [<mekanism:OtherDust:3>]);
 recipes.addShapeless(<mekanism:OtherDust:3>, [<ic2:dust:16>]);
 recipes.addShapeless(<refinedstorage:silicon>, [<enderio:itemMaterial>]);
 recipes.addShapeless(<neotech:dustLead>, [<ore:dustLead>]);
@@ -445,7 +446,5 @@ mods.rockhounding_chemistry.MineralSizer.add(<neotech:ingotLead>, <neotech:dustL
 mods.rockhounding_chemistry.MineralSizer.add(<minecraft:gold_ingot>, <neotech:dustGold>);
 mods.rockhounding_chemistry.MineralSizer.add(<rockhounding_chemistry:miscItems:46>, <immersiveengineering:metal:10>);
 mods.rockhounding_chemistry.MineralSizer.add(<rockhounding_chemistry:miscItems:27>, <neotech:dustLead>);
-
-mods.rockhounding_chemistry.LabBlender.add([<mekanism:OtherDust:3> * 3], <rockhounding_chemistry:chemicalItems:2> * 8);
 // ================================================================================
 
