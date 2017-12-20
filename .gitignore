@@ -13,7 +13,6 @@ options.txt
 local/
 fonts/
 minetweaker.log
-enderio/
 minecraftinstance.json
 modpack/
 .curseclient
@@ -27,3 +26,4 @@ knownkeys.txt
 WailaErrorOutput.txt
 config/JEI/worldSettings.cfg
 assets/
+enderio/dimensionalTransceiver.json
