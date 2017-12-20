@@ -31,6 +31,8 @@
     "extraplanets.EvolvedSnowmanBoss",
     "extraplanets.CreeperBossEris",
     "extraplanets.EvolvedGhastBoss",
-	"cyberware.cyberzombie"
+	"cyberware.cyberzombie",
+	"openblocks.luggage",
+	"openblocks.mini_me"
   ]
 }
