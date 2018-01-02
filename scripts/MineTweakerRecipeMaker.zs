@@ -287,6 +287,7 @@ recipes.addShapeless(<neotech:dustTin>, [<ic2:dust:17>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<minecraft:dragon_egg>, [[<minecraft:end_crystal>, null, <minecraft:end_crystal>], [<ore:netherStar>, <ore:egg>, <ore:netherStar>], [<minecraft:end_crystal>, null,<minecraft:end_crystal>]]);
 recipes.addShaped(<sgcraft:ic2Capacitor>, [[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>], [<ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>], [<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>]]);
 recipes.addShaped(<neotech:fluidGenerator>, [[<ore:ingotGold>, <ore:dustRedstone>, <ore:ingotGold>], [<simplegenerators:furnace_generator>, <neotech:basicTank>, <simplegenerators:furnace_generator>], [<ore:ingotGold>, <ore:dustRedstone>, <ore:ingotGold>]]);
 recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_pink"}), [[<ore:dyePink>, <ore:dyePink>, <ore:dyePink>], [<ore:dyePink>, <minecraft:wool:6>, <ore:dyePink>], [<ore:dustRedstone>, <simplegenerators:furnace_generator>, <ore:dustRedstone>]]);
