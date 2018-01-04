@@ -96,6 +96,8 @@ recipes.removeShapeless(<minecraft:dye:15> * 9, [<minecraft:bone_block>]);
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<harvestcraft:pamcottoncrop>);
+recipes.remove(<harvestcraft:cottonseeditem>);
 recipes.remove(<sgcraft:ic2Capacitor>);
 recipes.remove(<neotech:fluidGenerator>);
 recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_pink"}));
@@ -219,6 +221,7 @@ recipes.remove(<ic2:bronze_shovel>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<harvestcraft:cottonseeditem>, [<ore:cropCotton>]);
 recipes.addShapeless(<ic2:dust:16>, [<mekanism:OtherDust:3>]);
 recipes.addShapeless(<mekanism:OtherDust:3>, [<ic2:dust:16>]);
 recipes.addShapeless(<refinedstorage:silicon>, [<enderio:itemMaterial>]);
