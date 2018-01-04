@@ -94,8 +94,11 @@ Use the Spin Thrusters to Make Artificial Gravity on Space Stations::0
 Trade at least 64 Lunar Sapphire's with an Alien Villager::0
 Travel around the Asteroids using a Grapple from Galacticraft::0
 Use at Least 1 Oxygen Sealer to seal a base outside of the Overworld::0
+Use Sleeping to Reduce at Least a Total Amount of 20% Radiation::0
+Use Decontamination Unit to Reduce at Least a Total Amount of 50% Radiation::0
 Create at Least one Anti-Rad Drink to Reduce Your Radiation::0
 Fully Automate the Production of Creating Anti-Rad Drinks::0
+Use Anti-Rad Drinks to Reduce at Least a Total Amount of 100% Radiation::0
 ::1
 ::1
 ::1
@@ -152,8 +155,8 @@ Create a Advanced Mob Grider/Slaughterhouse (With at Least 5 Spawners)::0
 ::1
 ::1
 StarLight Technology::1
-Locate & Loot at Least one Astral Socery Structure::0
-Store Some Constellation Papers in the Astral Socery Journal::0
+Locate & Loot at Least one Astral Sorcery Structure::0
+Store Some Constellation Papers in the Astral Sorcery Journal::0
 Build a Resonating Wand & Use it to Find Materials Underground::0
 Build a Luminous Crafting Table::0
 Use the Light Well to Collect SkyLight::0
@@ -182,10 +185,10 @@ Use a Constellation Paper to Place Spectral Relays on to the Attunement Altar, W
 Throw a Rock Crystal on the Attunement Altar, When the Constellation has been Aligned to Make an Attuned Rock Crystal::0
 Use the Attunement Altar to Attune Yourself::0
 Use the Perks Section in the Journal to Activate Perks::0
-Unlock the Exploration Section in the Astral Socery Journal::0
-Unlock the Constellation Section in the Astral Socery Journal::0
-Unlock the Attunment Section in the Astral Socery Journal::0
-Complete all Tasks in the Exploration, Constellation, Attunement Sections in the Astral Socery Journal::0
+Unlock the Exploration Section in the Astral Sorcery Journal::0
+Unlock the Constellation Section in the Astral Sorcery Journal::0
+Unlock the Attunment Section in the Astral Sorcery Journal::0
+Complete all Tasks in the Exploration, Constellation, Attunement Sections in the Astral Sorcery Journal::0
 ::1
 ::1
 ::1
