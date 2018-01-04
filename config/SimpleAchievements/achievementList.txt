@@ -94,15 +94,11 @@ Use the Spin Thrusters to Make Artificial Gravity on Space Stations::0
 Trade at least 64 Lunar Sapphire's with an Alien Villager::0
 Travel around the Asteroids using a Grapple from Galacticraft::0
 Use at Least 1 Oxygen Sealer to seal a base outside of the Overworld::0
-Use Sleeping to Reduce at Least a Total Amount of 20% Radiation::0
-Use Decontamination Unit to Reduce at Least a Total Amount of 50% Radiation::0
+Use Sleeping at Least 4 times to Reduce Your Radiation::0
+Use Decontamination Unit at Least 4 times to Reduce Your Radiation::0
 Create at Least one Anti-Rad Drink to Reduce Your Radiation::0
 Fully Automate the Production of Creating Anti-Rad Drinks::0
-Use Anti-Rad Drinks to Reduce at Least a Total Amount of 100% Radiation::0
-::1
-::1
-::1
-::1
+Use Anti-Rad Drinks at Least 2 times to Reduce Your Radiation::0
 ::1
 Basic Power Systems::1
 Produce 500 RF/t::0
