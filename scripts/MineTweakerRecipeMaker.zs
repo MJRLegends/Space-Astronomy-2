@@ -221,6 +221,7 @@ recipes.remove(<ic2:bronze_shovel>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<neotech:nuggetLead>, [<immersiveengineering:metal:22>]);
 recipes.addShapeless(<harvestcraft:cottonseeditem>, [<ore:cropCotton>]);
 recipes.addShapeless(<ic2:dust:16>, [<mekanism:OtherDust:3>]);
 recipes.addShapeless(<mekanism:OtherDust:3>, [<ic2:dust:16>]);
