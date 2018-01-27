@@ -1,17 +1,17 @@
 {
     "biomes": [
         {
-            "conditions": "biome.name == 'mercury'",
+            "conditions": "biome.name == 'Mercury'",
             "soundReset": true,
             "sounds": []
         },
         {
-            "conditions": "biome.name == 'ceres'",
+            "conditions": "biome.name == 'Ceres'",
             "soundReset": true,
             "sounds": []
         },
         {
-            "conditions": "biome.name == 'jupiter'",
+            "conditions": "biome.name == 'Jupiter'",
             "soundReset": true,
             "sounds": [
                 {
@@ -22,7 +22,7 @@
             ]
         },
         {
-            "conditions": "biome.name == 'jupiterMagmaSea'",
+            "conditions": "biome.name == 'Jupiter Magma Sea'",
             "soundReset": true,
             "sounds": [
                 {
@@ -33,7 +33,7 @@
             ]
         },
         {
-            "conditions": "biome.name == 'jupiterSands'",
+            "conditions": "biome.name == 'Jupiter Sands'",
             "soundReset": true,
             "sounds": [
                 {
@@ -49,7 +49,7 @@
             ]
         },
         {
-            "conditions": "biome.name == 'saturn'",
+            "conditions": "biome.name == 'Saturn'",
             "soundReset": true,
             "sounds": [
                 {
@@ -60,7 +60,7 @@
             ]
         },
         {
-            "conditions": "biome.name == 'saturnHydroCarbonSea'",
+            "conditions": "biome.name == 'Saturn HydroCarbon Sea'",
             "soundReset": true,
             "sounds": [
                 {
@@ -71,7 +71,7 @@
             ]
         },
         {
-            "conditions": "biome.name == 'saturnNuclearLand'",
+            "conditions": "biome.name == 'Saturn Nuclear Land'",
             "soundReset": true,
             "sounds": [
                 {
@@ -82,7 +82,7 @@
             ]
         },
         {
-            "conditions": "biome.name == 'uranus'",
+            "conditions": "biome.name == 'Uranus'",
             "soundReset": true,
             "sounds": [
                 {
@@ -93,7 +93,7 @@
             ]
         },
         {
-            "conditions": "biome.name == 'uranusFrozenWater'",
+            "conditions": "biome.name == 'Uranus Frozen Water'",
             "soundReset": true,
             "sounds": [
                 {
@@ -104,7 +104,7 @@
             ]
         },
         {
-            "conditions": "biome.name == 'uranusSnowLands'",
+            "conditions": "biome.name == 'Uranus Snow Lands'",
             "soundReset": true,
             "sounds": [
                 {
@@ -120,7 +120,7 @@
             ]
         },
         {
-            "conditions": "biome.name == 'neptune'",
+            "conditions": "biome.name == 'Neptune'",
             "soundReset": true,
             "sounds": [
                 {
@@ -131,7 +131,7 @@
             ]
         },
         {
-            "conditions": "biome.name == 'neptuneRadioActiveWaterSea'",
+            "conditions": "biome.name == 'Neptune RadioActive Water Sea'",
             "soundReset": true,
             "sounds": [
                 {
@@ -142,7 +142,7 @@
             ]
         },
         {
-            "conditions": "biome.name == 'neptuneLayeredHills'",
+            "conditions": "biome.name == 'Neptune Layered Hills'",
             "soundReset": true,
             "sounds": [
                 {
@@ -153,12 +153,12 @@
             ]
         },
         {
-            "conditions": "biome.name == 'pluto'",
+            "conditions": "biome.name == 'Pluto'",
             "soundReset": true,
             "sounds": []
         },
         {
-            "conditions": "biome.name == 'eris'",
+            "conditions": "biome.name == 'Eris'",
             "soundReset": true,
             "sounds": []
         },
@@ -329,53 +329,53 @@
             "soundReset": true,
             "sounds": []
         },
-        {
-            "conditions": "biome.name == 'callisto'",
+		{
+            "conditions": "biome.name == 'Kepler22b Diamond Plains'",
+            "soundReset": true,
+            "sounds": []
+        },
+		{
+            "conditions": "biome.name == 'Kepler22b Gold Plains'",
+            "soundReset": true,
+            "sounds": []
+        },
+		{
+            "conditions": "biome.name == 'Kepler22b Coal Plains'",
+            "soundReset": true,
+            "sounds": []
+        },
+		{
+            "conditions": "biome.name == 'Kepler22b Iron Plains'",
+            "soundReset": true,
+            "sounds": []
+        },
+		{
+            "conditions": "biome.name == 'Kepler22b Emerald Plains'",
             "soundReset": true,
             "sounds": []
         },
         {
-            "conditions": "biome.name == 'deimos'",
+            "conditions": "biome.name == 'Callisto'",
             "soundReset": true,
             "sounds": []
         },
         {
-            "conditions": "biome.name == 'europa'",
+            "conditions": "biome.name == 'Deimos'",
             "soundReset": true,
             "sounds": []
         },
         {
-            "conditions": "biome.name == 'ganymede'",
+            "conditions": "biome.name == 'Europa'",
             "soundReset": true,
             "sounds": []
         },
-        {
-            "conditions": "biome.name == 'iapetus'",
+		{
+            "conditions": "biome.name == 'Europa Salt Sea'",
             "soundReset": true,
             "sounds": []
         },
-        {
-            "conditions": "biome.name == 'io'",
-            "soundReset": true,
-            "sounds": []
-        },
-        {
-            "conditions": "biome.name == 'ioAshLands'",
-            "soundReset": true,
-            "sounds": []
-        },
-        {
-            "conditions": "biome.name == 'ioBurningPlains'",
-            "soundReset": true,
-            "sounds": []
-        },
-        {
-            "conditions": "biome.name == 'oberon'",
-            "soundReset": true,
-            "sounds": []
-        },
-        {
-            "conditions": "biome.name == 'oberonLargeIceMountain'",
+		{
+            "conditions": "biome.name == 'Europa Ice Valleys'",
             "soundReset": true,
             "sounds": [
                 {
@@ -386,47 +386,37 @@
             ]
         },
         {
-            "conditions": "biome.name == 'oberonValleys'",
+            "conditions": "biome.name == 'Ganymede'",
             "soundReset": true,
             "sounds": []
         },
         {
-            "conditions": "biome.name == 'phobos'",
+            "conditions": "biome.name == 'Iapetus'",
             "soundReset": true,
             "sounds": []
         },
         {
-            "conditions": "biome.name == 'rhea'",
+            "conditions": "biome.name == 'Io'",
             "soundReset": true,
             "sounds": []
         },
         {
-            "conditions": "biome.name == 'titan'",
+            "conditions": "biome.name == 'Io Ash Lands'",
             "soundReset": true,
             "sounds": []
         },
         {
-            "conditions": "biome.name == 'titanMethaneSea'",
+            "conditions": "biome.name == 'Io Burning Plains'",
             "soundReset": true,
             "sounds": []
         },
         {
-            "conditions": "biome.name == 'titanMethaneHills'",
+            "conditions": "biome.name == 'Oberon'",
             "soundReset": true,
             "sounds": []
         },
         {
-            "conditions": "biome.name == 'titania'",
-            "soundReset": true,
-            "sounds": []
-        },
-        {
-            "conditions": "biome.name == 'triton'",
-            "soundReset": true,
-            "sounds": []
-        },
-        {
-            "conditions": "biome.name == 'tritonIceLands'",
+            "conditions": "biome.name == 'Oberon Large Ice Mountain'",
             "soundReset": true,
             "sounds": [
                 {
@@ -437,7 +427,58 @@
             ]
         },
         {
-            "conditions": "biome.name == 'tritonIceSea'",
+            "conditions": "biome.name == 'Oberon Valleys'",
+            "soundReset": true,
+            "sounds": []
+        },
+        {
+            "conditions": "biome.name == 'Phobos'",
+            "soundReset": true,
+            "sounds": []
+        },
+        {
+            "conditions": "biome.name == 'Rhea'",
+            "soundReset": true,
+            "sounds": []
+        },
+        {
+            "conditions": "biome.name == 'Titan'",
+            "soundReset": true,
+            "sounds": []
+        },
+        {
+            "conditions": "biome.name == 'Titan Methane Sea'",
+            "soundReset": true,
+            "sounds": []
+        },
+        {
+            "conditions": "biome.name == 'Titan Methane Hills'",
+            "soundReset": true,
+            "sounds": []
+        },
+        {
+            "conditions": "biome.name == 'Titania'",
+            "soundReset": true,
+            "sounds": []
+        },
+        {
+            "conditions": "biome.name == 'Triton'",
+            "soundReset": true,
+            "sounds": []
+        },
+        {
+            "conditions": "biome.name == 'Triton Ice Lands'",
+            "soundReset": true,
+            "sounds": [
+                {
+                    "sound": "dsurround:ice",
+                    "volume": 0.8,
+                    "repeatDelayRandom": 60
+                }
+            ]
+        },
+        {
+            "conditions": "biome.name == 'Triton Ice Sea'",
             "soundReset": true,
             "sounds": [
                 {
