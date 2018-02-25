@@ -64,13 +64,12 @@ enderioSilicon.remove(<enderio:itemMaterial>);
 uraniumOre.add(<bigreactors:brore>);
 nickelOre.remove(<extraplanets:jupiter:7>);
 
-ironNugget.add(<backport:iron_nugget>);
 uraniumIngot.add(<extraplanets:ingot_uranium>);
 uraniumBlock.add(<extraplanets:ceres:7>);
 
 ironNugget.remove(<rockhounding_chemistry:miscItems:2>);
 ironNugget.remove(<opencomputers:material>);
-ironNugget.remove(<neotech:nuggetIron>);
+ironNugget.remove(<backport:iron_nugget>);
 ironNugget.remove(<immersiveengineering:metal:29>);
 leadNugget.remove(<immersiveengineering:metal:22>);
 copperDust.remove(<immersiveengineering:metal:9>);
@@ -221,6 +220,7 @@ recipes.remove(<ic2:bronze_shovel>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<neotech:nuggetIron>, [<backport:iron_nugget>]);
 recipes.addShapeless(<neotech:nuggetLead>, [<immersiveengineering:metal:22>]);
 recipes.addShapeless(<harvestcraft:cottonseeditem>, [<ore:cropCotton>]);
 recipes.addShapeless(<ic2:dust:16>, [<mekanism:OtherDust:3>]);
@@ -322,7 +322,7 @@ recipes.addShaped(<sonarcore:StableGlass>, [[<ore:blockGlass>, <ore:blockGlass>]
 recipes.addShaped(<rockhounding_chemistry:testTube>, [[null, <ore:blockGlass>], [<ore:blockGlass>, null]]);
 recipes.addShaped(<minecraft:carrot> * 12, [[<mysticalagriculture:nature_essence>, <mysticalagriculture:nature_essence>], [null, <mysticalagriculture:nature_essence>]]);
 recipes.addShaped(<rockhounding_chemistry:miscItems:42> * 8, [[null, <ore:ingotIron>, null], [<ore:ingotIron>, null, <ore:ingotIron>], [null, <ore:ingotIron>, null]]);
-recipes.addShaped(<backport:iron_nugget> * 9, [[null, null, null], [null, <ore:ingotIron>, null], [null, null, null]]);
+recipes.addShaped(<neotech:nuggetIron> * 9, [[null, null, null], [null, <ore:ingotIron>, null], [null, null, null]]);
 recipes.addShaped(<rockhounding_chemistry:gear>, [[null, <ore:ingotIron>, null], [null, null, null], [null, null, null]]);
 recipes.addShaped(<extrautils2:teleporter:1>, [[<ore:compressed2xCobblestone>, <ore:compressed2xCobblestone>, <ore:compressed2xCobblestone>], [<ore:compressed2xCobblestone>, <actuallyadditions:blockMisc:6>, <ore:compressed2xCobblestone>], [<ore:compressed2xCobblestone>, <ore:compressed2xCobblestone>, <ore:compressed2xCobblestone>]]);
 recipes.addShaped(<tp:diamond_spear>, [[null, null, <ore:gemDiamond>], [null, <ore:gemDiamond>, null], [<ore:stickWood>, null, null]]);
@@ -384,7 +384,7 @@ game.setLocalization("entity.Villager.alchemist", "Alchemist");
 // ================================================================================
 //#MARKER REMOVE/ADD TINKERS SMELTERY MELTING MATERIALS
 mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 144, <rockhounding_chemistry:gear>, 534);
-mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 16, <backport:iron_nugget>, 345);
+mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 16, <neotech:nuggetIron>, 345);
 // ================================================================================
 
 // ================================================================================
@@ -411,8 +411,8 @@ furnace.addRecipe(<minecraft:iron_ingot>, <galacticraftplanets:item_basic_astero
 furnace.addRecipe(<minecraft:iron_ingot>, <ic2:purified:2>);
 furnace.addRecipe(<minecraft:iron_ingot>, <ic2:crushed:2>);
 
-furnace.remove(<neotech:nuggetIron>);
-furnace.addRecipe(<backport:iron_nugget>, <railcraft:ore_metal_poor>);
+furnace.remove(<backport:iron_nugget>);
+furnace.addRecipe(<neotech:nuggetIron>, <railcraft:ore_metal_poor>);
 
 furnace.remove(<minecraft:gold_ingot>);
 furnace.addRecipe(<minecraft:gold_ingot>, <ore:oreGold>);
