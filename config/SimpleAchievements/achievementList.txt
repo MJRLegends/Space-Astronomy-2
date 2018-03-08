@@ -215,14 +215,14 @@ Farming Technology::1
 Make a Manual Farm Which Bigger Than 6 x 6::0
 Make a Automated Farm Which Bigger than 6 x 6 But Less Than 16 x 16::0
 Make a Automated Farm Which Bigger than 16 x 16::0
-Use Mystical Agricurlture to Grow Materials::0
-Plant & Grow a Tier 1 seed from Mystical Agricurlture::0
-Plant & Grow a Tier 2 seed from Mystical Agricurlture::0
-Plant & Grow a Tier 3 seed from Mystical Agricurlture::0
-Plant & Grow a Tier 4 seed from Mystical Agricurlture::0
-Plant & Grow a Tier 5 seed from Mystical Agricurlture::0
-Collect at least 64 of each Essence Type from Mystical Agricurlture::0
-Setup an 8 x 8 Area, For Each of the Seeds from Mystical Agricurlture::0
+Use Mystical Agriculture to Grow Materials::0
+Plant & Grow a Tier 1 seed from Mystical Agriculture::0
+Plant & Grow a Tier 2 seed from Mystical Agriculture::0
+Plant & Grow a Tier 3 seed from Mystical Agriculture::0
+Plant & Grow a Tier 4 seed from Mystical Agriculture::0
+Plant & Grow a Tier 5 seed from Mystical Agriculture::0
+Collect at least 64 of each Essence Type from Mystical Agriculture::0
+Setup an 8 x 8 Area, For Each of the Seeds from Mystical Agriculture::0
 Planet & Grow One of Every Crop in Pam's HarvestCraft::0
 ::1
 ::1
