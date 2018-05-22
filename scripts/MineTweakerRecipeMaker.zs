@@ -129,7 +129,6 @@ recipes.remove(<tp:charcoal_block>);
 recipes.remove(<littletiles:utilityKnife>);
 recipes.remove(<rftools:smartwrench>);
 recipes.remove(<rockhounding_chemistry:miscItems:12>);
-recipes.remove(<sonarcore:StableGlass>);
 recipes.remove(<rockhounding_chemistry:testTube>);
 recipes.remove(<minecraft:bone_block>);
 recipes.remove(<minecraft:carrot>);
@@ -239,7 +238,6 @@ recipes.addShapeless(<rockhounding_chemistry:miscItems:27>, [<neotech:ingotLead>
 recipes.addShapeless(<galacticraftplanets:carbon_fragments> * 4, [<ore:charcoal>, <ore:charcoal>]);
 recipes.addShapeless(<galacticraftplanets:carbon_fragments> * 8, [<ore:coal>, <ore:coal>]);
 recipes.addShapeless(<minecraft:dye:15> * 4, [<minecraft:bone_block>]);
-recipes.addShapeless(<sonarcore:StableGlass>, [<sonarcore:ClearStableGlass>]);
 recipes.addShapeless(<minecraft:bone_block>, [<minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>]);
 recipes.addShapeless(<minecraft:carrot> * 9, [<natura:seed_bags:1>]);
 recipes.addShapeless(<natura:nether_planks:3>, [<natura:nether_slab:3>, <natura:nether_slab:3>]);
@@ -318,7 +316,6 @@ recipes.addShaped(<littletiles:utilityKnife>, [[null, null, <ore:ingotIron>], [n
 recipes.addShaped(<rftools:smartwrench>, [[<ore:ingotIron>, null, null], [null, <ore:gemLapis>, null], [null, null, <ore:gemLapis>]]);
 recipes.addShaped(<rockhounding_chemistry:agitator>, [[<ore:ingotIron>], [<ore:ingotIron>], [<ore:ingotIron>]]);
 recipes.addShaped(<rockhounding_chemistry:miscItems:12>, [[<ore:ingotSilver>, null, <ore:ingotSilver>], [<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>], [null, <ore:ingotSilver>, null]]);
-recipes.addShaped(<sonarcore:StableGlass>, [[<ore:blockGlass>, <ore:blockGlass>]]);
 recipes.addShaped(<rockhounding_chemistry:testTube>, [[null, <ore:blockGlass>], [<ore:blockGlass>, null]]);
 recipes.addShaped(<minecraft:carrot> * 12, [[<mysticalagriculture:nature_essence>, <mysticalagriculture:nature_essence>], [null, <mysticalagriculture:nature_essence>]]);
 recipes.addShaped(<rockhounding_chemistry:miscItems:42> * 8, [[null, <ore:ingotIron>, null], [<ore:ingotIron>, null, <ore:ingotIron>], [null, <ore:ingotIron>, null]]);
