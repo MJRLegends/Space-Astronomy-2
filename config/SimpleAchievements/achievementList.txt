@@ -30,6 +30,7 @@ Locate at Least one End Portal::0
 ::1
 ::1
 ::1
+::1
 Construction Work::1
 Build a Small Base!::0
 Build a Medium Base (At least 4 Chunks of Area Used)!::0
@@ -66,6 +67,7 @@ Build a Tier 9 Rocket::0
 Build a Tier 10 Rocket::0
 Build a Tier 10 Electric Rocket::0
 ::1
+::1
 Exploring the Universe::1
 Visit the Planet Mercury::0
 Visit the Moon::0
@@ -100,11 +102,14 @@ Create at Least one Anti-Rad Drink to Reduce Your Radiation::0
 Fully Automate the Production of Creating Anti-Rad Drinks::0
 Use Anti-Rad Drinks at Least 2 times to Reduce Your Radiation::0
 ::1
+::1
+::1
 Basic Power Systems::1
 Produce 500 RF/t::0
 Produce 1k RF/t::0
 Create a Stable Storage of 10K RF/t::0
 Create a Stable Supply of Power::0
+::1
 ::1
 Advanced Power Systems::1
 Create a Passively cooled Reactor from the Extreme Reactors::0
@@ -127,12 +132,16 @@ Basic Processing Technology::1
 Use Machines to 2x Your Ores::0
 Create a Automated Ore Processing System::0
 Automate Mining using a Powered Based Quarry (RFTools Builder is a good one)::0
+::1
+::1
 Advanced Processing Technology::1
 Process & Store up 250K of each of the following Ingots: Iron, Gold, Silver, Tin, Steel, Uranium, Lead, Bronze, Copper, Aluminium, Nickel and All of the Galacticraft & ExtraPlanets Ingots::0
 Process & Store up 500K of each of the following Ingots: Iron, Gold, Silver, Tin, Steel, Uranium, Lead, Bronze, Copper, Aluminium, Nickel and All of the Galacticraft & ExtraPlanets Ingots::0
 Use Machines to 3x Your Ores::0
 Use Machines to 4x Your Ores::0
 Use Machines to 5x Your Ores::0
+::1
+::1
 ::1
 ::1
 ::1
@@ -144,6 +153,9 @@ Upgrade Your Refined Storage System to Store Liquids/Fluids::0
 Upgrade Your Refined Storage System to Hold Up to 12 of All 64K Fluid Storage Disks::0
 Hook up an External Item Storage to Your Refined Storage System::0
 Create a Automated Crafting System using Refined Storage::0
+::1
+::1
+::1
 Slaughter Technology::1
 Create a Basic Mob Grider/Slaughterhouse (With at Least 1 Spawner)::0
 Create a Advanced Mob Grider/Slaughterhouse (With at Least 5 Spawners)::0
@@ -232,6 +244,7 @@ Use Genetics Reborn to Give Yourself Part of an Animals DNA::0
 Use Genetics Reborn to Give Yourself All Available Animals DNA::0
 Create and Use a SG Craft Stargate Portal::0
 Setup at Least 5 Destinations to Travel with the Stargate Portal::0
+::1
 Robotic Technology::1
 Kill Cyber Zombies and Collect at least one Robotic Part::0
 Find a Robosurgeon Machine in a Nether Forness Loot::0
