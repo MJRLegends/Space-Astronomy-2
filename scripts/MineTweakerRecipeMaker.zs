@@ -219,6 +219,7 @@ recipes.remove(<ic2:bronze_shovel>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<spacecraftx:compressed_alli>, [<spacecraftx:ingot_lithium>, <ore:ingotAluminum>]);
 recipes.addShapeless(<neotech:nuggetIron>, [<backport:iron_nugget>]);
 recipes.addShapeless(<neotech:nuggetLead>, [<immersiveengineering:metal:22>]);
 recipes.addShapeless(<harvestcraft:cottonseeditem>, [<ore:cropCotton>]);
