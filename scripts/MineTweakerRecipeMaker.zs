@@ -95,6 +95,8 @@ recipes.removeShapeless(<minecraft:dye:15> * 9, [<minecraft:bone_block>]);
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<rftools:hasteplus_module>);
+recipes.remove(<rftools:haste_module>);
 recipes.remove(<harvestcraft:pamcottoncrop>);
 recipes.remove(<harvestcraft:cottonseeditem>);
 recipes.remove(<sgcraft:ic2Capacitor>);
@@ -219,6 +221,8 @@ recipes.remove(<ic2:bronze_shovel>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<rftools:hasteplus_module>, [<rftools:haste_module>, <minecraft:diamond_pickaxe>.withTag({ench: [{lvl: 4, id: 32 as short}]})]);
+recipes.addShapeless(<rftools:haste_module>, [<minecraft:diamond_pickaxe>.withTag({ench: [{lvl: 3, id: 32 as short}]}), <ore:dustRedstone>, <ore:ingotGold>, <ore:dustRedstone>, <minecraft:dye>]);
 recipes.addShapeless(<spacecraftx:compressed_alli>, [<spacecraftx:ingot_lithium>, <ore:ingotAluminum>]);
 recipes.addShapeless(<neotech:nuggetIron>, [<backport:iron_nugget>]);
 recipes.addShapeless(<neotech:nuggetLead>, [<immersiveengineering:metal:22>]);
