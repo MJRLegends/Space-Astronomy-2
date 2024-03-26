@@ -131,7 +131,7 @@
 			"tooltip": "Get Server Files!",
             "action": {
                 "type": "openLink",
-                "link": "https://minecraft.curseforge.com/projects/space-astronomy-2"
+                "link": "https://www.curseforge.com/minecraft/modpacks/space-astronomy-2"
             }
 		}
     },
